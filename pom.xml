@@ -22,9 +22,9 @@
     </properties>
 
     <modules>
-        <module>spring-boot-java-base</module>
-        <module>spring-boot-rabbit-mq</module>
-        <module>spring-boot-common-training</module>
+        <module>spring-boot-basic</module>
+        <module>spring-boot-common</module>
+        <module>spring-boot-mq</module>
     </modules>
 
 

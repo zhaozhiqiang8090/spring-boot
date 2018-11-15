@@ -2,45 +2,273 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df81ff0-b954-4d6a-a569-93eed292298f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/spring-boot-common-training.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/CommonTrainingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigParent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/ConfigurationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/JspController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/SpringRetryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/filter/TestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/listener/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/model/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/SpringRetryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/SpringRetryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/Toyota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/servlet/TestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/templates/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/test/java/com/zzq/commontraining/CommonTrainingApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/spring-boot-common-training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/spring-boot-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/CommonTrainingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/CommonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigA.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/configuration/ConfigA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigB.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/configuration/ConfigB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/configuration/ConfigParent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/ConfigurationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/controller/ConfigurationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/JspController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/controller/JspController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/SpringRetryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/controller/SpringRetryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/filter/TestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/filter/TestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/listener/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/listener/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/model/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/model/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/service/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/SpringRetryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/service/SpringRetryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/BMW.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/service/impl/BMW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/SpringRetryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/service/impl/SpringRetryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/Toyota.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/service/impl/Toyota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/servlet/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/servlet/TestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/templates/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/webapp/WEB-INF/jsp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/src/test/java/com/zzq/commontraining/CommonTrainingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/test/java/com/zzq/common/CommonTrainingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/CommonTrainingApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/CommonTrainingApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/ServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/configuration/ConfigA.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/configuration/ConfigA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/configuration/ConfigB.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/configuration/ConfigB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/configuration/ConfigParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/configuration/ConfigParent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/controller/ConfigurationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/controller/ConfigurationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/controller/JspController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/controller/JspController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/controller/SpringRetryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/controller/SpringRetryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/controller/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/filter/TestFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/filter/TestFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/listener/TestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/listener/TestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/model/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/model/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/service/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/service/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/service/SpringRetryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/service/SpringRetryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/service/impl/BMW.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/service/impl/BMW.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/service/impl/SpringRetryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/service/impl/SpringRetryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/service/impl/Toyota.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/service/impl/Toyota.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/com/zzq/commontraining/servlet/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/classes/com/zzq/commontraining/servlet/TestServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/classes/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/src/main/resources/templates/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-common-training/target/test-classes/com/zzq/commontraining/CommonTrainingApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-common/target/test-classes/com/zzq/commontraining/CommonTrainingApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/java/lang/Long.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/java/lang/Long.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/JavaBaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/JavaBaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/aop/AopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/Chinese.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/aop/Chinese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/Japanese.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/aop/Japanese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/aop/MyAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/aop/MyAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/aop/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/classloader/ClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/classloader/ClassLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/classloader/ClassLoaderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/classloader/ClassLoaderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/classloader/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/classloader/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/classloader/MyClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/classloader/MyClassLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/classloader/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/classloader/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/clone/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/clone/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/compress/ZipUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/compress/ZipUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/controller/BootControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/controller/BootControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/gc/GCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/gc/GCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/generic/ReflectInGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/ReflectInGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/initialization/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/initialization/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/initialization/InitialOrderFromAli.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/initialization/InitialOrderFromAli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/initialization/InitialOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/initialization/InitialOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/initialization/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/initialization/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/innerclass/InnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/innerclass/InnerClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/log/LogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/log/LogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/proxy/CGLibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/CGLibProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/proxy/DynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/DynamicProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/proxy/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/proxy/HelloImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/HelloImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/proxy/HelloProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/HelloProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/InterruptSingletonCloneable.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/InterruptSingletonCloneable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/InterruptSingletonReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/InterruptSingletonReflect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/InterruptSingletonSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/InterruptSingletonSerializable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/SingletonEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/SingletonEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/SingletonStaticInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/SingletonStaticInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/static_/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/static_/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/static_/TestStaticCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/static_/TestStaticCon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/static_/TestStaticCon1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/static_/TestStaticCon1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/test/CommonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/test/CommonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/CachedThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/threadpool/CachedThreadPoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/CalllableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/threadpool/CalllableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/FixedThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/threadpool/FixedThreadPoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/MyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/threadpool/MyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/RunnableAndCallableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/threadpool/RunnableAndCallableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/ScheduledThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/threadpool/ScheduledThreadPoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/SingleThreadExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/threadpool/SingleThreadExecutorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/ThreadPoolExcecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/threadpool/ThreadPoolExcecutorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/resources/application-pro.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/resources/application-sit.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/java/lang/Long.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/java/lang/Long.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/JavaBaseApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/JavaBaseApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/aop/AopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/AopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/aop/Chinese.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/Chinese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/aop/Japanese.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/Japanese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/aop/MyAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/MyAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/aop/MyAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/MyAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/aop/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/classloader/ClassLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/classloader/ClassLoaderUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/classloader/MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/MyClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/classloader/MyClassLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/MyClassLoaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/classloader/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/clone/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/clone/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/compress/ZipUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/compress/ZipUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/controller/BootControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/controller/BootControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/gc/GCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/gc/GCTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/generic/ReflectInGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/generic/ReflectInGeneric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/initialization/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/initialization/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/initialization/InitialOrderFromAli.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/initialization/InitialOrderFromAli.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/initialization/InitialOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/initialization/InitialOrderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/initialization/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/initialization/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/innerclass/InnerClassTest$InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/innerclass/InnerClassTest$InnerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/innerclass/InnerClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/innerclass/InnerClassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/log/LogTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/log/LogTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/proxy/CGLibProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/proxy/CGLibProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/proxy/DynamicProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/proxy/DynamicProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/proxy/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/proxy/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/proxy/HelloImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/proxy/HelloImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/proxy/HelloProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/proxy/HelloProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/singleton/InterruptSingletonCloneable.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/InterruptSingletonCloneable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/singleton/InterruptSingletonReflect.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/InterruptSingletonReflect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/singleton/InterruptSingletonSerializable.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/InterruptSingletonSerializable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/singleton/SingletonEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/SingletonEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/singleton/SingletonStaticInnerClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/SingletonStaticInnerClass$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/singleton/SingletonStaticInnerClass$SingletonHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/SingletonStaticInnerClass$SingletonHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/singleton/SingletonStaticInnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/SingletonStaticInnerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/static_/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/static_/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/static_/TestStaticCon.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/static_/TestStaticCon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/static_/TestStaticCon1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/static_/TestStaticCon1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/test/CommonTest$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/test/CommonTest$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/test/CommonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/test/CommonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/CachedThreadPoolTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/CachedThreadPoolTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/CachedThreadPoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/CachedThreadPoolTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/CalllableTest$AThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/CalllableTest$AThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/CalllableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/CalllableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/FixedThreadPoolTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/FixedThreadPoolTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/FixedThreadPoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/FixedThreadPoolTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/MyTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest$C1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest$C1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest$R1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest$R1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/ScheduledThreadPoolTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ScheduledThreadPoolTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/ScheduledThreadPoolTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ScheduledThreadPoolTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/ScheduledThreadPoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ScheduledThreadPoolTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/SingleThreadExecutorTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/SingleThreadExecutorTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/SingleThreadExecutorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/SingleThreadExecutorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/ThreadPoolExcecutorTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ThreadPoolExcecutorTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/ThreadPoolExcecutorTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ThreadPoolExcecutorTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/com/zzq/javabase/threadpool/ThreadPoolExcecutorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ThreadPoolExcecutorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/confirm/ConfirmRecv.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/confirm/ConfirmRecv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/confirm/ConfirmSend1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/confirm/ConfirmSend1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/confirm/ConfirmSend2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/confirm/ConfirmSend2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/confirm/ConfirmSend3.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/confirm/ConfirmSend3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/ps/Recv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/ps/Recv1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/ps/Recv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/ps/Recv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/ps/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/ps/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/routing/Recv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/routing/Recv1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/routing/Recv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/routing/Recv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/routing/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/routing/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/simple/Recv.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/simple/Recv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/simple/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/simple/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/spring/MyConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/spring/MyConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/spring/SpringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/spring/SpringMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/topic/Recv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/topic/Recv1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/topic/Recv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/topic/Recv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/topic/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/topic/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/tx/TxRecv.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/tx/TxRecv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/tx/TxSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/tx/TxSend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/util/ConnectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/util/ConnectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/work/fair/Recv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/work/fair/Recv1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/work/fair/Recv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/work/fair/Recv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/work/fair/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/work/fair/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/work/round/Recv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/work/round/Recv1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/work/round/Recv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/work/round/Recv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/work/round/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/work/round/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/resources/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmRecv$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmRecv$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmRecv.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmRecv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmSend1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmSend1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmSend2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmSend2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmSend3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmSend3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmSend3.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/confirm/ConfirmSend3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/ps/Recv1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/ps/Recv1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/ps/Recv1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/ps/Recv1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/ps/Recv2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/ps/Recv2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/ps/Recv2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/ps/Recv2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/ps/Send.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/ps/Send.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/routing/Recv1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/routing/Recv1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/routing/Recv1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/routing/Recv1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/routing/Recv2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/routing/Recv2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/routing/Recv2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/routing/Recv2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/routing/Send.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/routing/Send.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/simple/Recv$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/simple/Recv$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/simple/Recv.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/simple/Recv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/simple/Send.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/simple/Send.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/spring/MyConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/spring/MyConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/spring/SpringMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/spring/SpringMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/topic/Recv1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/topic/Recv1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/topic/Recv1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/topic/Recv1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/topic/Recv2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/topic/Recv2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/topic/Recv2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/topic/Recv2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/topic/Send.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/topic/Send.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/tx/TxRecv$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/tx/TxRecv$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/tx/TxRecv.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/tx/TxRecv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/tx/TxSend.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/tx/TxSend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/util/ConnectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/util/ConnectionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/work/fair/Recv1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/work/fair/Recv1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/work/fair/Recv1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/work/fair/Recv1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/work/fair/Recv2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/work/fair/Recv2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/work/fair/Recv2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/work/fair/Recv2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/work/fair/Send.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/work/fair/Send.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/work/round/Recv1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/work/round/Recv1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/work/round/Recv1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/work/round/Recv1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/work/round/Recv2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/work/round/Recv2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/work/round/Recv2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/work/round/Recv2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/com/zzq/rabbitmq/work/round/Send.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/target/classes/com/zzq/rabbitmq/work/round/Send.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/resources/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-mq/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-java-base/target/" />
     <ignored path="$PROJECT_DIR$/rabbit-mq/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-rabbit-mq/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-common-training/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-mq/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-common/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-javabase/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-basic/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +279,20 @@
     <session id="1648100749">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="96" />
+          <entry key="java" value="101" />
           <entry key="jsp" value="2" />
-          <entry key="properties" value="7" />
-          <entry key="xml" value="26" />
+          <entry key="properties" value="11" />
+          <entry key="xml" value="33" />
           <entry key="yaml" value="4" />
         </counts>
       </usages-collector>
@@ -70,20 +300,20 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="96" />
+          <entry key="JAVA" value="101" />
           <entry key="JSP" value="2" />
-          <entry key="Properties" value="7" />
-          <entry key="XML" value="26" />
+          <entry key="Properties" value="11" />
+          <entry key="XML" value="33" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="96" />
+          <entry key="dummy" value="97" />
           <entry key="html" value="11" />
           <entry key="java" value="951" />
           <entry key="properties" value="27" />
-          <entry key="xml" value="69" />
+          <entry key="xml" value="93" />
           <entry key="yaml" value="34" />
         </counts>
       </usages-collector>
@@ -91,16 +321,16 @@
         <counts>
           <entry key="HTML" value="11" />
           <entry key="JAVA" value="951" />
-          <entry key="PLAIN_TEXT" value="96" />
+          <entry key="PLAIN_TEXT" value="97" />
           <entry key="Properties" value="27" />
-          <entry key="XML" value="69" />
+          <entry key="XML" value="93" />
           <entry key="YAML" value="34" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,7 +358,6 @@
         <option value="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/threadpool/ThreadPoolExcecutorTest.java" />
         <option value="$PROJECT_DIR$/rabbit-mq/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/log/LogTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/SpringbootApplication.java" />
         <option value="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/JavaBaseApplication.java" />
         <option value="$PROJECT_DIR$/spring-boot-java-base/pom.xml" />
@@ -169,6 +398,11 @@
         <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/BMW.java" />
         <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/SpringRetryServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/spring-boot-common/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-javabase/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -197,16 +431,16 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-boot-common-training" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring-boot-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-boot-common-training" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring-boot-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-boot-common-training" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="spring-boot-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
@@ -226,6 +460,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,17 +469,10 @@
               <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-java-base" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,7 +482,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542263821022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542267132649" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -289,13 +518,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CommonTrainingApplication">
+  <component name="RunManager" selected="Spring Boot.CommonApplication">
     <configuration name="ConfigurationController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzq.commontraining.controller.ConfigurationController" />
-      <module name="spring-boot-common-training" />
+      <option name="MAIN_CLASS_NAME" value="com.zzq.common.controller.ConfigurationController" />
+      <module name="spring-boot-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzq.commontraining.controller.*" />
+          <option name="PATTERN" value="com.zzq.common.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,7 +534,7 @@
     </configuration>
     <configuration name="InterruptSingletonCloneable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzq.javabase.singleton.InterruptSingletonCloneable" />
-      <module name="spring-boot-java-base" />
+      <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zzq.javabase.singleton.*" />
@@ -318,7 +547,7 @@
     </configuration>
     <configuration name="InterruptSingletonReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzq.javabase.singleton.InterruptSingletonReflect" />
-      <module name="spring-boot-java-base" />
+      <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zzq.javabase.singleton.*" />
@@ -331,7 +560,7 @@
     </configuration>
     <configuration name="SingletonEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzq.javabase.singleton.SingletonEnum" />
-      <module name="spring-boot-java-base" />
+      <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zzq.javabase.singleton.*" />
@@ -342,28 +571,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonTrainingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-common-training" />
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzq.commontraining.*" />
+          <option name="PATTERN" value="com.zzq.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzq.commontraining.CommonTrainingApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzq.common.CommonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="JavaBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot-java-base" />
+      <module name="spring-boot-basic" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzq.JavaBaseApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot-java-base" />
+      <module name="spring-boot-basic" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzq.SpringbootApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -375,12 +604,12 @@
       <item itemvalue="Application.SingletonEnum" />
       <item itemvalue="Application.InterruptSingletonReflect" />
       <item itemvalue="Application.InterruptSingletonCloneable" />
-      <item itemvalue="Spring Boot.CommonTrainingApplication" />
+      <item itemvalue="Spring Boot.CommonApplication" />
       <item itemvalue="Application.ConfigurationController" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CommonTrainingApplication" />
+        <item itemvalue="Spring Boot.CommonApplication" />
         <item itemvalue="Application.ConfigurationController" />
         <item itemvalue="Application.InterruptSingletonReflect" />
         <item itemvalue="Application.SingletonEnum" />
@@ -399,16 +628,17 @@
       <option name="presentableId" value="Default" />
       <updated>1542177627186</updated>
       <workItem from="1542177636987" duration="4831000" />
+      <workItem from="1542265624031" duration="1500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27230000" />
+    <option name="totallyTimeSpent" value="30199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31996974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32526475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -416,10 +646,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Messages" weight="0.5193548" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38548386" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28225806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37419355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -430,6 +659,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.5193548" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -449,34 +679,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-rabbit-mq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/spring/MyConsumer.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/spring/MyConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
@@ -487,53 +690,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/spring/SpringMain.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-mq/src/main/java/com/zzq/mq/rabbit/spring/SpringMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/JavaBaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/MyAnnotation.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/aop/MyAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/Person.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/aop/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/MyAdvice.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/aop/MyAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/controller/BootControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/controller/BootControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/generic/ReflectInGeneric.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/ReflectInGeneric.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
@@ -547,7 +739,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/InterruptSingletonSerializable.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/InterruptSingletonSerializable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
@@ -559,7 +751,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/InterruptSingletonCloneable.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/InterruptSingletonCloneable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
@@ -569,28 +761,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/SingleEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/SingletonEnum.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/SingleEnum.java" />
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/SingletonEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/SingletonStaticInnerClass.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/SingletonStaticInnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/InterruptSingletonReflect.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/InterruptSingletonReflect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
@@ -601,35 +787,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/webapp/WEB-INF/jsp/success.jsp">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/webapp/WEB-INF/jsp/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="55" selection-start-line="55" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/test/java/com/zzq/commontraining/CommonTrainingApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/test/java/com/zzq/common/CommonTrainingApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
@@ -643,28 +815,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/resources/templates/upload.html">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/resources/templates/upload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/ServletInitializer.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/ServletInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/servlet/TestServlet.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/servlet/TestServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
@@ -678,17 +843,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/listener/TestListener.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/listener/TestListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/model/Person.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/model/Person.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/filter/TestFilter.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/filter/TestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
@@ -698,28 +863,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/model/Dog.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/model/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="94" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/JspController.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/controller/JspController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/UploadController.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/controller/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
@@ -730,46 +895,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigParent.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/configuration/ConfigParent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigB.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/configuration/ConfigB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/Car.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/service/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/CommonTrainingApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/Toyota.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/service/impl/Toyota.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
@@ -779,14 +926,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/BMW.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/service/impl/BMW.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/ConfigurationController.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/controller/ConfigurationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
@@ -797,21 +944,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/SpringRetryController.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/controller/SpringRetryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/SpringRetryService.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/service/SpringRetryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/SpringRetryServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/service/impl/SpringRetryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
@@ -821,17 +968,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.yaml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/resources/application-pro.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/resources/application-sit.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/configuration/ConfigA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common/src/main/java/com/zzq/common/CommonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/JavaBaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>
