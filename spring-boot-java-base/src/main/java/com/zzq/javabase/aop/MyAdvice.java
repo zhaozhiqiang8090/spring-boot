@@ -22,7 +22,7 @@ public class MyAdvice {
     /**
      * 1.注解
      */
-    @Pointcut("@annotation(com.boot.aop.MyAnnotation)")
+    @Pointcut("@annotation(com.zzq.javabase.aop.MyAnnotation)")
     public void pointcutAnnotation() {
     }
 
@@ -39,7 +39,7 @@ public class MyAdvice {
     /**
      * 2.方法
      */
-    @Pointcut("execution(* com.boot.aop.*.**(..))")
+    @Pointcut("execution(* com.zzq.javabase.aop.*.**(..))")
     public void pointcutExcution() {
     }
 
@@ -54,7 +54,7 @@ public class MyAdvice {
     /**
      * 3.包
      */
-    @Pointcut(value = "within(com.boot.aop.*)")
+    @Pointcut(value = "within(com.zzq.javabase.aop.*)")
     public void pointcutWithin() {
     }
 

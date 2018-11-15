@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BootControllerTest {
 
     @RequestMapping("/test")
-    String home() {
+    public String home() {
         return "Hello World!";
     }
     
