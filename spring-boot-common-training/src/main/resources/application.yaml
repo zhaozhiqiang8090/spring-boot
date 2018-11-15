@@ -1,0 +1,21 @@
+#server:
+#  port: 8080
+#  servlet:
+#    context-path: /zzq
+
+person:
+  last-name: 咔咔
+  age: 18
+  boss: true
+  birth: 2018/10/4
+  maps: {key1: value1, key2: value2}
+  lists: [dog, cat, horse]
+  dog:
+    name: 旺财
+    age: 3
+  email: 123456@qq.com
+
+dog:
+  name: 啸天
+  age: 1
+

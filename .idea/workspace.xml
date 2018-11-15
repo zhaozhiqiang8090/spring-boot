@@ -2,21 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df81ff0-b954-4d6a-a569-93eed292298f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/InterruptSingletonCloneable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/InterruptSingletonReflect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/InterruptSingletonSerializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/SingletonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/spring-boot-common-training.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/CommonTrainingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/ConfigurationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/JspController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/SpringRetryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/filter/TestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/listener/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/model/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/SpringRetryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/SpringRetryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/Toyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/servlet/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/templates/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-common-training/src/test/java/com/zzq/commontraining/CommonTrainingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/MyAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/controller/BootControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/controller/BootControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/SingleEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/SingletonStaticInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-java-base/target/" />
     <ignored path="$PROJECT_DIR$/rabbit-mq/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-rabbit-mq/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-common-training/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,30 +57,44 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="56" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="19" />
+          <entry key="class" value="2" />
+          <entry key="html" value="1" />
+          <entry key="java" value="96" />
+          <entry key="jsp" value="2" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="26" />
+          <entry key="yaml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="56" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="19" />
+          <entry key="CLASS" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="96" />
+          <entry key="JSP" value="2" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="26" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="42" />
-          <entry key="java" value="360" />
-          <entry key="xml" value="51" />
+          <entry key="dummy" value="96" />
+          <entry key="html" value="11" />
+          <entry key="java" value="951" />
+          <entry key="properties" value="27" />
+          <entry key="xml" value="69" />
+          <entry key="yaml" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="360" />
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="XML" value="51" />
+          <entry key="HTML" value="11" />
+          <entry key="JAVA" value="951" />
+          <entry key="PLAIN_TEXT" value="96" />
+          <entry key="Properties" value="27" />
+          <entry key="XML" value="69" />
+          <entry key="YAML" value="34" />
         </counts>
       </usages-collector>
     </session>
@@ -106,6 +144,31 @@
         <option value="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/InterruptSingletonSerializable.java" />
         <option value="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/SingletonEnum.java" />
         <option value="$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/singleton/InterruptSingletonReflect.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/RemoteService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/ServletInitializer.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/test/java/com/zzq/commontraining/Demo10ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/templates/upload.html" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/servlet/TestServlet.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/filter/TestFilter.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/JspController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/CommonTrainingApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/model/Person.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/SpringRetryController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/Car.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigB.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/ConfigurationController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/SpringRetryService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/SpringRetryService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigA.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/Toyota.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/BMW.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/SpringRetryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.yaml" />
       </list>
     </option>
   </component>
@@ -129,6 +192,28 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-common-training" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-common-training" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-common-training" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1378" />
     <option name="height" value="780" />
@@ -148,6 +233,11 @@
               <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-java-base" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -163,24 +253,28 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542246526712" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542263821022" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zzq.commontraining.service.impl" />
+      <recent name="com.zzq.commontraining.service" />
+      <recent name="com.zzq.commontraining.controller" />
+      <recent name="com.zzq.commontraining" />
       <recent name="com.java.lang" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev-src\demos\spring-boot\spring-boot-java-base\src\main\resources" />
-      <recent name="D:\dev-src\demos\spring-boot\spring-boot-java-base\src\main\java\com\zzq\javabase" />
-      <recent name="D:\dev-src\demos\spring-boot\rabbit-mq\src\main\java" />
-      <recent name="D:\dev-src\demos\spring-boot\rabbit-mq\src\main\resources" />
-      <recent name="D:\dev-src\demos\spring-boot\spring-boot-java-base\src\main\java\com\zzq" />
+      <recent name="D:\dev-src\demos\spring-boot\spring-boot-common-training\src\main\java\com\zzq\commontraining\configuration" />
+      <recent name="D:\dev-src\demos\spring-boot\spring-boot-common-training\src\main\java\com\zzq\commontraining\service\impl" />
+      <recent name="D:\dev-src\demos\spring-boot\spring-boot-common-training\src\main\java\com\zzq\commontraining" />
+      <recent name="D:\dev-src\demos\spring-boot\spring-boot-common-training\src\main\resources" />
+      <recent name="D:\dev-src\demos\spring-boot\spring-boot-common-training\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -195,7 +289,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterruptSingletonReflect">
+  <component name="RunManager" selected="Spring Boot.CommonTrainingApplication">
+    <configuration name="ConfigurationController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzq.commontraining.controller.ConfigurationController" />
+      <module name="spring-boot-common-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzq.commontraining.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InterruptSingletonCloneable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzq.javabase.singleton.InterruptSingletonCloneable" />
       <module name="spring-boot-java-base" />
@@ -222,19 +329,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptSingletonSerializable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzq.javabase.singleton.InterruptSingletonSerializable" />
-      <module name="spring-boot-java-base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzq.javabase.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SingletonEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzq.javabase.singleton.SingletonEnum" />
       <module name="spring-boot-java-base" />
@@ -248,15 +342,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonStaticInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzq.javabase.singleton.SingletonStaticInnerClass" />
-      <module name="spring-boot-java-base" />
+    <configuration name="CommonTrainingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-common-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzq.javabase.singleton.*" />
+          <option name="PATTERN" value="com.zzq.commontraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzq.commontraining.CommonTrainingApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -278,19 +372,19 @@
     <list>
       <item itemvalue="Spring Boot.SpringbootApplication" />
       <item itemvalue="Spring Boot.JavaBaseApplication" />
-      <item itemvalue="Application.SingletonStaticInnerClass" />
       <item itemvalue="Application.SingletonEnum" />
-      <item itemvalue="Application.InterruptSingletonSerializable" />
       <item itemvalue="Application.InterruptSingletonReflect" />
       <item itemvalue="Application.InterruptSingletonCloneable" />
+      <item itemvalue="Spring Boot.CommonTrainingApplication" />
+      <item itemvalue="Application.ConfigurationController" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CommonTrainingApplication" />
+        <item itemvalue="Application.ConfigurationController" />
         <item itemvalue="Application.InterruptSingletonReflect" />
         <item itemvalue="Application.SingletonEnum" />
         <item itemvalue="Application.InterruptSingletonCloneable" />
-        <item itemvalue="Application.SingletonStaticInnerClass" />
-        <item itemvalue="Application.InterruptSingletonSerializable" />
       </list>
     </recent_temporary>
   </component>
@@ -309,13 +403,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13955000" />
+    <option name="totallyTimeSpent" value="27230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31996974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31996974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -323,16 +416,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Messages" weight="0.32903227" />
+      <window_info anchor="bottom" id="Messages" weight="0.5193548" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27580646" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37419355" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38548386" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37419355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -342,7 +435,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -356,97 +449,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/initialization/InitialOrderFromAli.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/static_/Test1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/static_/TestStaticCon.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/threadpool/CachedThreadPoolTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/aop/Japanese.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/gc/GCTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/singleton/SingleEnum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/classloader/ClassLoaderUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/aop/Chinese.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/threadpool/ThreadPoolExcecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/resources/context.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-rabbit-mq/src/main/java/com/zzq/rabbitmq/ps/Send.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/initialization/Child.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/Japanese.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/aop/Chinese.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/initialization/Parent.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/classloader/MyClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/classloader/Person.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/classloader/ClassLoaderTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/ScheduledThreadPoolTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/SingleThreadExecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/test/CommonTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/static_/TestStaticCon1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/ThreadPoolExcecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/FixedThreadPoolTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/threadpool/MyTask.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/static_/Test1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/java/com/zzq/javabase/log/LogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-java-base/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -467,24 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-rabbit-mq/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-418">
           <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -613,16 +601,252 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/webapp/WEB-INF/jsp/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-java-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="55" selection-start-line="55" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/test/java/com/zzq/commontraining/CommonTrainingApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/m2_repo_common/org/springframework/spring-web/5.1.2.RELEASE/spring-web-5.1.2.RELEASE.jar!/org/springframework/web/bind/annotation/RequestParam.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/resources/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/servlet/TestServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/m2_repo_common/org/apache/tomcat/embed/tomcat-embed-core/9.0.12/tomcat-embed-core-9.0.12.jar!/javax/servlet/Filter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/listener/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/filter/TestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="method#init#0;class#TestFilter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/model/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/JspController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigParent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/CommonTrainingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/configuration/ConfigA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/Toyota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/BMW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/ConfigurationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/controller/SpringRetryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/SpringRetryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/java/com/zzq/commontraining/service/impl/SpringRetryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#812#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-common-training/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>spring-boot-common-training:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -665,7 +889,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-boot-java-base</last-edited>
+          <last-edited>spring-boot-common-training</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -690,7 +914,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

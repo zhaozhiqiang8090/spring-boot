@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-common-training" />
         <module name="spring-boot-java-base" />
         <module name="spring-boot-rabbit-mq" />
       </profile>

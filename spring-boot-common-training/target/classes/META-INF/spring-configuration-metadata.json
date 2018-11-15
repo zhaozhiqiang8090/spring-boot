@@ -1,0 +1,70 @@
+{
+  "groups": [
+    {
+      "name": "dog",
+      "type": "com.zzq.commontraining.model.Dog",
+      "sourceType": "com.zzq.commontraining.model.Dog"
+    },
+    {
+      "name": "person",
+      "type": "com.zzq.commontraining.model.Person",
+      "sourceType": "com.zzq.commontraining.model.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dog.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zzq.commontraining.model.Dog",
+      "defaultValue": 0
+    },
+    {
+      "name": "dog.name",
+      "type": "java.lang.String",
+      "sourceType": "com.zzq.commontraining.model.Dog"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zzq.commontraining.model.Person",
+      "defaultValue": 0
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.zzq.commontraining.model.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zzq.commontraining.model.Person",
+      "defaultValue": false
+    },
+    {
+      "name": "person.dog",
+      "type": "com.zzq.commontraining.model.Dog",
+      "sourceType": "com.zzq.commontraining.model.Person"
+    },
+    {
+      "name": "person.email",
+      "type": "java.lang.String",
+      "sourceType": "com.zzq.commontraining.model.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zzq.commontraining.model.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.zzq.commontraining.model.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.zzq.commontraining.model.Person"
+    }
+  ],
+  "hints": []
+}
