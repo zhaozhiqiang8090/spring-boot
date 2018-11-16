@@ -2,15 +2,11 @@ package com.zzq.basic.java.threadpool;
 
 import java.util.concurrent.*;
 
-public class RunnableAndCallableTest {
+public class CallableAndRunnable {
 
     public static class R1 implements Runnable {
 
         private User user;
-
-        public R1() {
-
-        }
 
         public R1(User user) {
             this.user = user;
@@ -28,7 +24,7 @@ public class RunnableAndCallableTest {
     public static class C1 implements Callable<String> {
 
         @Override
-        public String call() throws Exception {
+        public String call() {
             System.out.println(Thread.currentThread().getName() + " start!");
             return "callable running!";
         }
@@ -66,15 +62,18 @@ public class RunnableAndCallableTest {
         User user = new User();
         R1 r1 = new R1(user);
         C1 c1 = new C1();
-        executorService.execute(r1);
+        System.out.println(user.getName());
+
+//        executorService.execute(r1);
         Future<?> future1 = executorService.submit(c1);
-        Future<?> future2 = executorService.submit(r1);
+//        Future<?> future2 = executorService.submit(r1);
         Future<?> future3 = executorService.submit(r1, user);
 
         try {
             System.out.println(future1.get());
-            System.out.println(future2.get());
+//            System.out.println(future2.get());
             System.out.println(((User) future3.get()).getName());
+            System.out.println(user.getName());
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
@@ -118,10 +117,8 @@ public class RunnableAndCallableTest {
     }
 
     public static void main(String[] args) {
-//         testExecutorService();
-         testScheduledExecutorService();
+         testExecutorService();
+//         testScheduledExecutorService();
 //         testThreadPoolExecutor();
-
-        return;
     }
 }

@@ -3,19 +3,11 @@
  */
 package com.zzq.basic.java.threadpool;
 
-/**
- * 类的详细说明
- * 
- * @author zhaozhiqiang
- * @version V1.0
- * @Date 2018年4月27日 下午2:20:01
- */
-
-public class MyTask implements Runnable {
+public class MyRunnableTask implements Runnable {
 
     public String name;
 
-    public MyTask(String name) {
+    public MyRunnableTask(String name) {
         super();
         this.name = name;
     }

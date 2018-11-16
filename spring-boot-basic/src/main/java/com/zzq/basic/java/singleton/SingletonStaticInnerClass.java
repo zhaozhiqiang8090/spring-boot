@@ -3,13 +3,6 @@
  */
 package com.zzq.basic.java.singleton;
 
-/**
- * 类的详细说明
- * 
- * @author zhaozhiqiang
- * @version V1.0
- * @Date 2018年4月26日 上午10:19:19
- */
 public class SingletonStaticInnerClass {
     
     static {
