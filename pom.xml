@@ -23,8 +23,9 @@
 
     <modules>
         <module>spring-boot-basic</module>
-        <module>spring-boot-common</module>
+        <module>spring-boot-core</module>
         <module>spring-boot-mq</module>
+        <module>spring-boot-common</module>
     </modules>
 
 

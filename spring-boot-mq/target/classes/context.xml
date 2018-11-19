@@ -34,6 +34,6 @@
 	</rabbit:listener-container>
 
 	<!-- 消费者 -->
-	<bean id="foo" class="com.zzq.rabbitmq.spring.MyConsumer" />
+	<bean id="foo" class="com.zzq.mq.rabbit.spring.MyConsumer" />
 
 </beans>

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-basic" />
         <module name="spring-boot-common" />
+        <module name="spring-boot-core" />
         <module name="spring-boot-mq" />
       </profile>
     </annotationProcessing>

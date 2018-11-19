@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/spring-boot-common" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-core" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
