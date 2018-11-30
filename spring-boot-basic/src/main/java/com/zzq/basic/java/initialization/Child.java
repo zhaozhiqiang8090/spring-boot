@@ -1,7 +1,7 @@
 package com.zzq.basic.java.initialization;
 
 
-public class Child extends Parent {
+public class Child extends Parent implements ParentInitialOrder{
 
     static {
         System.out.println("static block of Child initializing!");
@@ -15,10 +15,4 @@ public class Child extends Parent {
         System.out.println("Child constructor!");
     }
 
-    public static void main(String[] args) {
-//        System.out.println(pString);
-        Child child = null;
-        child = new Child();
-        System.out.println(child.toString());
-    }
 }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
 
-public class TestSingleton {
+public class SingletonTest {
 
     private static CountDownLatch countDownLatch = new CountDownLatch(20);
 
