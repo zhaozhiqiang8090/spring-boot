@@ -1,28 +1,18 @@
 package com.zzq.basic.java.innerclass;
 
-public interface InnerClassTest {
+public class InnerClassTest {
 
-    public static class InnerClass {
-        
-        private String name;
-        
-        private static String age;
+    public static void main(String[] args) {
+        Outer1 outer1 = new Outer1();
+        outer1.print();
+        System.out.println("----------");
+        outer1.new Inner().print();
 
-        public String getName() {
-            return name;
-        }
+        System.out.println("----------");
+        new Outer2.Inner().print();
 
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public static String getAge() {
-            return age;
-        }
-
-        public static void setAge(String age) {
-            InnerClass.age = age;
-        }
-        
+        System.out.println("----------");
+        new Outer3().outerMethod();
     }
+
 }
