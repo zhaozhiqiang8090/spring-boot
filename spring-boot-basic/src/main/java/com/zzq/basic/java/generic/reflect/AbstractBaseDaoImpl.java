@@ -13,11 +13,6 @@ public abstract class AbstractBaseDaoImpl<T, K> {
     private Class<T> entityClass;
     private Class<T> primaryKeyClass;
 
-//    public AbstractBaseDaoImpl() {
-//        Type t = getClass().getGenericSuperclass();
-//        System.out.println(t);
-//    }
-
     public AbstractBaseDaoImpl() {
         Type t = getClass().getGenericSuperclass();
         ParameterizedType pt = (ParameterizedType) t;
@@ -102,18 +97,11 @@ public abstract class AbstractBaseDaoImpl<T, K> {
         return t;
     }
 
-    public static void main(String[] args) {
-        UserDaoImpl userDao = new UserDaoImpl();
-        User user1 = new User();
-        userDao.save(user1);
-        userDao.delete(1);
-        userDao.update(user1);
-        try {
-            User user2 = userDao.get();
-            System.out.println(user2);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    public void show() {
+        System.out.println(getClass().getGenericSuperclass());
+        System.out.println(entityClass);
+        System.out.println(primaryKeyClass);
+        System.out.println("----------");
     }
 
 }

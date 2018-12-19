@@ -2,99 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df81ff0-b954-4d6a-a569-93eed292298f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/clone/CloneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/clone/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/enumration/EnumrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/enumration/MarriageCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/GenericClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/GenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/GenericThrowable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/Identifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/AbstractBaseDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/innerclass/Outer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/innerclass/Outer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/innerclass/Outer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/CrudTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/clone/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/clone/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/innerclass/InnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/innerclass/InnerClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/clone/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/clone/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/innerclass/InnerClassTest$InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/innerclass/InnerClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/innerclass/InnerClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/singleton/TestSingleton$TestSingletonCallable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/singleton/TestSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/threadpool/ThreadPoolExecutorTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/threadpool/ThreadPoolExecutorTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/AopTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/Chinese.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/Japanese.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/MyAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/MyAnnotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/aop/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Const.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest$Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/ClassLoaderUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/MyClassLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/MyClassLoaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/classloader/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/clone/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/compress/ZipUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/controller/BootControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/gc/GCTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/generic/ReflectInGeneric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/initialization/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/initialization/InitialOrderFromAli.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/initialization/InitialOrderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/initialization/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/innerclass/InnerClassTest$InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/innerclass/InnerClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/log/LogTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/proxy/CGLibProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/proxy/DynamicProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/proxy/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/proxy/HelloImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/proxy/HelloProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/InterruptSingletonCloneable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/InterruptSingletonReflect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/InterruptSingletonSerializable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/SingletonEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/SingletonStaticInnerClass$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/SingletonStaticInnerClass$SingletonHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/singleton/SingletonStaticInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/static_/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/static_/TestStaticCon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/static_/TestStaticCon1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/test/CommonTest$User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/test/CommonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/CachedThreadPoolTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/CachedThreadPoolTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/CalllableTest$AThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/CalllableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/FixedThreadPoolTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/FixedThreadPoolTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/MyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest$C1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest$R1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest$User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/RunnableAndCallableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ScheduledThreadPoolTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ScheduledThreadPoolTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ScheduledThreadPoolTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/SingleThreadExecutorTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/SingleThreadExecutorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ThreadPoolExcecutorTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ThreadPoolExcecutorTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/javabase/threadpool/ThreadPoolExcecutorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/ReflectInGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/ReflectInGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/AbstractBaseDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/AbstractBaseDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/generic/ReflectInGeneric.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/generic/ReflectInGeneric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/generic/reflect/AbstractBaseDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/generic/reflect/AbstractBaseDaoImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-java-base/target/" />
@@ -133,7 +47,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="280" />
+          <entry key="java" value="285" />
           <entry key="jsp" value="2" />
           <entry key="properties" value="12" />
           <entry key="xml" value="47" />
@@ -144,7 +58,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="280" />
+          <entry key="JAVA" value="285" />
           <entry key="JSP" value="2" />
           <entry key="Properties" value="12" />
           <entry key="XML" value="47" />
@@ -155,7 +69,7 @@
         <counts>
           <entry key="dummy" value="440" />
           <entry key="html" value="11" />
-          <entry key="java" value="10504" />
+          <entry key="java" value="10656" />
           <entry key="properties" value="27" />
           <entry key="xml" value="121" />
           <entry key="yaml" value="34" />
@@ -164,7 +78,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="11" />
-          <entry key="JAVA" value="10504" />
+          <entry key="JAVA" value="10656" />
           <entry key="PLAIN_TEXT" value="440" />
           <entry key="Properties" value="27" />
           <entry key="XML" value="121" />
@@ -176,31 +90,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/UserDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/ReflectInGeneric.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-              <folding>
-                <element signature="e#203#204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/AbstractBaseDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+            <state relative-caret-position="375">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/User.java">
+        <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="460" column="19" selection-start-line="460" selection-start-column="19" selection-end-line="460" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/CrudTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/AbstractBaseDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -235,8 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/SafeSingletonBySynchronized.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/UnSafeSingletonByDoubleCheck.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/TestSingleton.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/InterruptSingletonByCloneable.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/InterruptSingletonBySerializable.java" />
@@ -284,8 +211,10 @@
         <option value="$PROJECT_DIR$/spring-boot-basic/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/User.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/AbstractBaseDaoImplDemo.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/ReflectInGeneric.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/AbstractBaseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/CrudTest.java" />
       </list>
     </option>
   </component>
@@ -331,7 +260,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1378" />
     <option name="height" value="780" />
   </component>
@@ -473,7 +402,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545190562993" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545199588624" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -509,7 +438,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AbstractBaseDaoImpl">
+  <component name="RunManager" selected="Application.CrudTest">
     <configuration name="AbstractBaseDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzq.basic.java.generic.reflect.AbstractBaseDaoImpl" />
       <module name="spring-boot-basic" />
@@ -523,12 +452,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.java.clone.CloneTest" />
+    <configuration name="CrudTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.java.generic.reflect.CrudTest" />
       <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzq.basic.java.clone.*" />
+          <option name="PATTERN" value="com.zzq.basic.java.generic.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -541,7 +470,7 @@
       <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzq.basic.java.generic.*" />
+          <option name="PATTERN" value="com.zzq.basic.java.generic.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -549,12 +478,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Son" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.java.generic.Son" />
+    <configuration name="ReflectInGenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.java.generic.reflect.ReflectInGenericTest" />
       <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzq.basic.java.generic.*" />
+          <option name="PATTERN" value="com.zzq.basic.java.generic.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -600,19 +529,19 @@
       <item itemvalue="Spring Boot.SpringbootApplication" />
       <item itemvalue="Spring Boot.JavaBaseApplication" />
       <item itemvalue="Spring Boot.CoreApplication" />
-      <item itemvalue="Application.CloneTest" />
       <item itemvalue="Application.GenericTest" />
-      <item itemvalue="Application.Son" />
       <item itemvalue="Application.UserDaoImpl" />
       <item itemvalue="Application.AbstractBaseDaoImpl" />
+      <item itemvalue="Application.ReflectInGenericTest" />
+      <item itemvalue="Application.CrudTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrudTest" />
+        <item itemvalue="Application.ReflectInGenericTest" />
         <item itemvalue="Application.AbstractBaseDaoImpl" />
         <item itemvalue="Application.UserDaoImpl" />
         <item itemvalue="Application.GenericTest" />
-        <item itemvalue="Application.Son" />
-        <item itemvalue="Application.CloneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -635,12 +564,12 @@
       <workItem from="1543803128243" duration="19329000" />
       <workItem from="1544066530061" duration="31730000" />
       <workItem from="1544680483693" duration="23030000" />
-      <workItem from="1545185397148" duration="4650000" />
+      <workItem from="1545185397148" duration="8251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206571000" />
+    <option name="totallyTimeSpent" value="210172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,7 +584,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.30786687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.30786687" />
       <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.3547655" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -665,8 +594,8 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.29516128" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3548387" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43870968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
@@ -855,8 +784,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/staticfield/StaticField1.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/staticfield/ParentStaticField.java" />
     <entry file="jar://D:/devbin/jdk8/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -985,13 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
           <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/ReflectInGeneric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1176,20 +1096,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="460" column="19" selection-start-line="460" selection-start-column="19" selection-end-line="460" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/ReflectInGeneric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/AbstractBaseDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="114" column="32" lean-forward="true" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
+        <state relative-caret-position="136">
+          <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/generic/reflect/CrudTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
