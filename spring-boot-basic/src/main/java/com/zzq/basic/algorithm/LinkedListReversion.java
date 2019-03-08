@@ -1,4 +1,4 @@
-package com.zzq.basic.algorithm.linkedlist;
+package com.zzq.basic.algorithm;
 
 public class LinkedListReversion {
 

@@ -1,31 +1,31 @@
 package com.zzq.basic.java.concurrent;
 
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-public class ReentrantLockTest {
+public class ReentrantReadWriteLockTest {
 
     private static int i = 0;
 
-    public static void main(String[] args) throws InterruptedException{
+    public static void main(String[] args) throws InterruptedException {
 
-        ReentrantLock lock = new ReentrantLock();
-
-//        Condition read = lock.newCondition();
-//        Condition write = lock.newCondition();
+        ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
 
         Thread s1 = new Thread(() -> {
             for (int j = 0; j < 1000; j++) {
                 try {
-                    Thread.sleep(1);
-                    lock.lock();//加锁
+                    Thread.sleep(10);
+//                    lock.readLock().lock();
+                    lock.writeLock().lock();
+                    System.out.println("add locked ----------");
                     Thread.sleep(1000);
                     i++;
                     System.out.println("add:" + i);
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally {
-                    lock.unlock();//解锁，放在finally语句块里目的是防止前边出现异常，解锁一定能被执行。
+                    System.out.println("add unlocked ----------");
+//                    lock.readLock().unlock();
+                    lock.writeLock().unlock();
                 }
             }
         });
@@ -33,14 +33,17 @@ public class ReentrantLockTest {
         Thread s2 = new Thread(() -> {
             for (int j = 0; j < 1000; j++) {
                 try {
+                    Thread.sleep(10);
+                    lock.readLock().lock();
+                    System.out.println("sub locked ----------");
                     Thread.sleep(1);
-                    lock.lock();
                     i--;
                     System.out.println("sub:" + i);
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally {
-                    lock.unlock();
+                    System.out.println("sub unlocked ----------");
+                    lock.readLock().unlock();
                 }
             }
         });
@@ -53,5 +56,4 @@ public class ReentrantLockTest {
 
         System.out.println("main:" + i);
     }
-
 }

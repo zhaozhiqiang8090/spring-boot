@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.zzq.basic.java.aop;
 
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 类的详细说明
- * 
+ *
  * @author zhaozhiqiang
  * @version V1.0
  * @Date 2018年4月28日 上午11:48:06
@@ -39,11 +39,11 @@ public class MyAdvice {
     /**
      * 2.方法
      */
-    @Pointcut("execution(* com.zzq.javabase.aop.*.**(..))")
-    public void pointcutExcution() {
+    @Pointcut("execution(* com.zzq.basic.java.aop.*.*(..))")
+    public void pointcutExecution() {
     }
 
-    @Around(value = "pointcutExcution()")
+    @Around(value = "pointcutExecution()")
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
         System.out.println("[Aspect1] around advise 1");
         Object result = pjp.proceed();
@@ -54,7 +54,7 @@ public class MyAdvice {
     /**
      * 3.包
      */
-    @Pointcut(value = "within(com.zzq.javabase.aop.*)")
+    @Pointcut(value = "within(com.zzq.basic.java.aop.*)")
     public void pointcutWithin() {
     }
 

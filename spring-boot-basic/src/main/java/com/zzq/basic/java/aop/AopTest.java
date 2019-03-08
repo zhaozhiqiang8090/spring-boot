@@ -40,11 +40,5 @@ public class AopTest {
     public String hello() {
         return "hello!";
     }
-    
-    @RequestMapping("/aop/hello2")
-    public String hello2() {
-        return "hello2!";
-        
-    }
 
 }

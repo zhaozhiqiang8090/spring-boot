@@ -7,7 +7,12 @@ public class CyclicBarrierTest {
 
     public static void main(String[] args) {
 
-        CyclicBarrier Barrier = new CyclicBarrier(2);
+        CyclicBarrier Barrier = new CyclicBarrier(2, new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("双方继续前进");
+            }
+        });
 
         new Thread(()->{
             System.out.println("甲方先行");
