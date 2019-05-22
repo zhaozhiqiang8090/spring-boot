@@ -3,6 +3,8 @@ package com.zzq.basic.algorithm.sort;
 import com.zzq.basic.algorithm.sort.linearTimeNoncomparative.BucketSort;
 import com.zzq.basic.algorithm.sort.linearTimeNoncomparative.CountingSort;
 import com.zzq.basic.algorithm.sort.linearTimeNoncomparative.RadixSort;
+import com.zzq.basic.algorithm.sort.nonlinearTimeComparative.BubbleSort;
+import com.zzq.basic.algorithm.sort.nonlinearTimeComparative.SelectionSort;
 
 public class SortTest {
 
@@ -10,7 +12,7 @@ public class SortTest {
         int[] array = {1, 3, 4, 5, 2, 6, 9, 7, 8, 0, -1, -10, 20, 300};
         SortUtils.printPart(array);
 
-//        BubbleSort.bubbleSort(array);
+        BubbleSort.bubbleSort(array);
 //        SelectionSort.selectionSort(array);
 //        InsertionSort.insertionSort(array);
 
@@ -20,7 +22,7 @@ public class SortTest {
 
 //        CountingSort.countingSort(array);
 //        BucketSort.bucketSort(array, 10);
-        RadixSort.radixSort(array);
+//        RadixSort.radixSort(array);
 
         SortUtils.printPart(array);
     }

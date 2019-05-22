@@ -6,6 +6,7 @@ package com.zzq.basic.java.test;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 类的详细说明
@@ -29,6 +30,7 @@ public class BasicTest {
         }
         
     }
+
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<String, String>();
         Collections.synchronizedMap(map);
@@ -36,5 +38,6 @@ public class BasicTest {
         ThreadLocal<String> tl = new ThreadLocal<String>();
         tl.get();
         tl.set("");
+        ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
     }
 }

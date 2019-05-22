@@ -28,7 +28,7 @@ public class CountingSort {
 
         // 2. 排序
         for (int i = 0, j = 0; i < counter.length; i++) {
-            while ((counter[i]--) > 0) {
+            while (counter[i]-- > 0) {
                 a[j++] = i + minValue;
             }
         }
