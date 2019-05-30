@@ -4,6 +4,7 @@ public class Fibonacci {
 
     /**
      * 递归法
+     *
      * @param index
      * @return
      */
@@ -22,6 +23,7 @@ public class Fibonacci {
 
     /**
      * 遍历法
+     *
      * @param index
      * @return
      */
@@ -38,7 +40,7 @@ public class Fibonacci {
         int previous1 = 1;
         int previous2 = 1;
         int current = 0;
-        for (int i=3; i<=index; i++) {
+        for (int i = 3; i <= index; i++) {
             current = previous1 + previous2;
             previous2 = previous1;
             previous1 = current;

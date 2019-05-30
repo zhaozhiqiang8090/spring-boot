@@ -27,6 +27,7 @@ public class LinkedListReversion {
 
     /**
      * 初始化
+     *
      * @return
      */
     private static Node initNode() {
@@ -54,6 +55,7 @@ public class LinkedListReversion {
 
     /**
      * 递归法
+     *
      * @param node
      * @return
      */
@@ -70,27 +72,27 @@ public class LinkedListReversion {
 
     /**
      * 遍历法
+     *
      * @param node
      * @return
      */
     private static Node reverseLinkedListByTraversion(Node node) {
         Node previousNode = null;
         Node currentNode = node;
-        Node headNode = null;
+        Node nextNode;
         while (currentNode != null) {
-            Node nextNode = currentNode.getNext();
-            if (nextNode == null) {
-                headNode = currentNode;
-            }
+            nextNode = currentNode.getNext();
+
             currentNode.setNext(previousNode);
             previousNode = currentNode;
             currentNode = nextNode;
         }
-        return headNode;
+        return previousNode;
     }
 
     /**
      * 打印
+     *
      * @param node
      */
     private static void printLinkedList(Node node) {

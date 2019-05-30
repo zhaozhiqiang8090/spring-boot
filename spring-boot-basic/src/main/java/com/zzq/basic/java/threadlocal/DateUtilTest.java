@@ -22,12 +22,14 @@ public class DateUtilTest {
         for (String str : dateStrList) {
             executorService.execute(() -> {
                 try {
-                    simpleDateFormat.parse(str);
+                    System.out.println(ThreadLocalDateUtil.parse(str));
                     TimeUnit.SECONDS.sleep(1);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
             });
         }
+
+        executorService.shutdown();
     }
 }

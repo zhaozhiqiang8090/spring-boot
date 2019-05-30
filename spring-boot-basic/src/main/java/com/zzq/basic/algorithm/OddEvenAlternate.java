@@ -23,7 +23,7 @@ public class OddEvenAlternate {
             while (!oddStop) {
                 try {
                     reentrantLock.lock();
-                    if (i % 2 == 1) {
+                    if (!oddStop && i % 2 == 1) {
                         System.out.println("奇" + ":" + i++);
                         evenCondition.signal();
                         if (i < 100) {
@@ -31,7 +31,6 @@ public class OddEvenAlternate {
                         } else {
                             oddStop = true;
                         }
-
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -53,7 +52,7 @@ public class OddEvenAlternate {
             while (!evenStop) {
                 try {
                     reentrantLock.lock();
-                    if (i % 2 == 0) {
+                    if (!evenStop && i % 2 == 0) {
                         System.out.println("偶" + ":" + i++);
                         oddCondition.signal();
                         if (i < 101) {

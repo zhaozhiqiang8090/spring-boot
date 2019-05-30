@@ -9,7 +9,7 @@ public class BinarySearch {
         while (lo <= hi) {
             mid = (lo + hi) / 2;//中间位置
             if (array[mid] == a) {
-                return mid + 1;
+                return mid;
             } else if (array[mid] < a) { //向右查找
                 lo = mid + 1;
             } else { //向左查找
@@ -18,4 +18,11 @@ public class BinarySearch {
         }
         return -1;
     }
+
+    public static void main(String[] args) {
+
+        int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        System.out.println(biSearch(a, 10));
+    }
+
 }
