@@ -2,63 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df81ff0-b954-4d6a-a569-93eed292298f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/ArrayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No13ReOrderArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No6MinNumberInRotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No10RectCover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No7Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No8JumpFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No9JumpFloorII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/ListUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No14FindKthToTail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No15ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No16Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No3PrintListFromTailToHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/MatrixUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No19PrintMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No1Find.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No11NumberOf1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No12Power.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No20StackWithMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No21IsPopOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No5QueueWithTwoStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No5StackWithTwoQueues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No2ReplaceSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No17HasSubtree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No18Mirror.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No22PrintFromTopToBottom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No23VerifySequenceOfBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No24FindPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No4ReConstructBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/FibonacciTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/MatrixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/NumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/QueueStackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/TreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No28MoreThanHalfNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No29GetLeastNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No30FindGreatestSumOfSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No32PrintMinNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No35InversePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No37GetNumberOfK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No40FindNumsAppearOnce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No41FindContinuousSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No42FindNumbersWithSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No45IsContinuous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No50Duplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No51Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No64MaxInWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No25Clone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No36FindFirstCommonNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No55EntryNodeOfLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No56DeleteDuplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/RandomListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No65HasPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No66MovingCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No31NumberOf1Between1AndN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No33GetUglyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No46LastRemaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No47Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No48Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No63StreamMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No27Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No34FirstNotRepeatingChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No43LeftRotateString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No44ReverseSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No49StrToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No52Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No53IsNumeric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No54FirstCharacterInStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No26Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No38TreeDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No39IsBalanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No57GetNext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No58IsSymmetrical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No59Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No60Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No61Serialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No62KthNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeLinkNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/LinkedListReversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/LinkedListReversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/LongestCommonSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/LongestCommonSubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/MaxContinuousSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/MaxContinuousSubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/OddEvenAlternate.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/OddEvenAlternate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/LinkedListReversion$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/LinkedListReversion$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/LinkedListReversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/LongestCommonSubSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/MaxContinuousSubSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/OddEvenAlternate$Even.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/OddEvenAlternate$Odd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/OddEvenAlternate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/ArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No24FindPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No24FindPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/MatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/MatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/NumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/NumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/niuke/array/ArrayUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/niuke/array/ArrayUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/niuke/linkedlist/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/niuke/linkedlist/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/niuke/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/niuke/tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/niuke/tree/TreeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/niuke/tree/TreeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/ArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/ArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/MatrixTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/MatrixTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/NumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/NumberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/StringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/test-classes/com/zzq/basic/algorithm/niuke/TreeTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-java-base/target/" />
@@ -80,9 +89,10 @@
     <session id="1648100749">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.103" value="2" />
+          <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.107" value="1" />
           <entry key="project.open.time.111" value="3" />
@@ -97,8 +107,10 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.180" value="1" />
           <entry key="project.open.time.197" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.209" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.221" value="1" />
           <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.85" value="1" />
@@ -109,16 +121,16 @@
           <entry key="project.open.time.93" value="2" />
           <entry key="project.open.time.94" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.open.time.96" value="1" />
+          <entry key="project.open.time.96" value="2" />
           <entry key="project.open.time.98" value="2" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
+          <entry key="class" value="6" />
           <entry key="html" value="1" />
-          <entry key="java" value="696" />
+          <entry key="java" value="803" />
           <entry key="jsp" value="2" />
           <entry key="properties" value="17" />
           <entry key="xml" value="56" />
@@ -127,9 +139,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="6" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="696" />
+          <entry key="JAVA" value="803" />
           <entry key="JSP" value="2" />
           <entry key="Properties" value="17" />
           <entry key="XML" value="56" />
@@ -140,7 +152,7 @@
         <counts>
           <entry key="dummy" value="565" />
           <entry key="html" value="11" />
-          <entry key="java" value="33160" />
+          <entry key="java" value="42706" />
           <entry key="properties" value="29" />
           <entry key="xml" value="125" />
           <entry key="yaml" value="34" />
@@ -149,7 +161,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="11" />
-          <entry key="JAVA" value="33160" />
+          <entry key="JAVA" value="42706" />
           <entry key="PLAIN_TEXT" value="565" />
           <entry key="Properties" value="29" />
           <entry key="XML" value="125" />
@@ -161,37 +173,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/TreeTest.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No66MovingCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+            <state relative-caret-position="100">
+              <caret line="24" selection-start-line="24" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeNode.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No65HasPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="274">
+              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No23VerifySequenceOfBST.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/MatrixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No24FindPath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="300">
+              <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+              <folding>
+                <element signature="e#1222#1223#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -224,6 +231,7 @@
       <find>parse</find>
       <find>execute</find>
       <find>execute(</find>
+      <find>ComplexListNode</find>
       <find>execute(</find>
     </findStrings>
     <replaceStrings>
@@ -236,57 +244,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No3ReversePrintList.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/ListTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/HasSubtree.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/Mirror.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No30FindGreatestSumOfSubArray.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No31NumberOf1Between1AndN.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No32PrintMinNumber.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No33GetUglyNumber.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No34FirstNotRepeatingChar.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No35InversePairs.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No36FindFirstCommonNode.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No37GetNumberOfK.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No38TreeDepth.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No39IsBalanced.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No40FindNumsAppearOnce.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No41FindContinuousSequence.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No42FindNumbersWithSum.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No43LeftRotateString.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/ArrayUtil.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/ArrayTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/ListUtil.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/MatrixTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/MatrixUtil.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/AbstractTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/AbstractLog.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/QueueStackTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeUtil.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No22PrintFromTopToBottom.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No17HasSubtree.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No4ReConstructBinaryTree.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/tree/TreeTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No18Mirror.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No5QueueWithTwoStacks.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No5StackWithTwoQueues.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No21IsPopOrder.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No20StackWithMin.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No1Find.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/MatrixTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No19PrintMatrix.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/QueueStackTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No14FindKthToTail.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No15ReverseList.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ListTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No3PrintListFromTailToHead.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No16Merge.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No6MinNumberInRotateArray.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No13ReOrderArray.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ArrayTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No7Fibonacci.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No8JumpFloor.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No9JumpFloorII.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No10RectCover.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/FibonacciTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No11NumberOf1.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No12Power.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/NumberTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No2ReplaceSpace.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No44ReverseSentence.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No45IsContinuous.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No46LastRemaining.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No47Sum.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No48Add.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No49StrToInt.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No50Duplicate.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No51Multiply.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No52Match.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No52Match.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No53IsNumeric.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No54FirstCharacterInStream.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/StringTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No23VerifySquenceOfBST.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No23VerifySequenceOfBST.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No24FindPath.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No55EntryNodeOfLoop.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/ListNode.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ListTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No56DeleteDuplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeLinkNode.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeUtil.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No57GetNext.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No58IsSymmetrical.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No59Print.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No60Print.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No61Serialize.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No62KthNode.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/TreeTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No63StreamMedian.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/NumberTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No64MaxInSlidingWindow.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No64MaxInWindow.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/MatrixUtil.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No66MovingCount.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/MatrixTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No65HasPath.java" />
       </list>
     </option>
   </component>
@@ -424,6 +432,82 @@
               <item name="spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="spring-boot-basic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring-boot-basic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring-boot-basic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring-boot-basic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zzq" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring-boot-basic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zzq" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring-boot-basic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zzq" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="algorithm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring-boot-basic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zzq" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="algorithm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="niuke" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring-boot-basic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zzq" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="algorithm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="niuke" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="matrix" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="spring-boot-basic" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -508,7 +592,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560130172512" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560829992999" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -547,8 +631,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.no24FindPath">
-    <configuration name="TreeTest.no18Mirror" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MatrixTest.no65HasPath">
+    <configuration name="MatrixTest.no65HasPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
@@ -557,14 +641,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zzq.basic.algorithm.niuke" />
-      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.algorithm.niuke.TreeTest" />
-      <option name="METHOD_NAME" value="no18Mirror" />
+      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.algorithm.niuke.MatrixTest" />
+      <option name="METHOD_NAME" value="no65HasPath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.no22PrintFromTopToBottom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberTest.no63StreamMedian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
@@ -573,14 +657,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zzq.basic.algorithm.niuke" />
-      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.algorithm.niuke.TreeTest" />
-      <option name="METHOD_NAME" value="no22PrintFromTopToBottom" />
+      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.algorithm.niuke.NumberTest" />
+      <option name="METHOD_NAME" value="no63StreamMedian" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.no23VerifySequenceOfBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.no60Print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
@@ -590,13 +674,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zzq.basic.algorithm.niuke" />
       <option name="MAIN_CLASS_NAME" value="com.zzq.basic.algorithm.niuke.TreeTest" />
-      <option name="METHOD_NAME" value="no23VerifySequenceOfBST" />
+      <option name="METHOD_NAME" value="no60Print" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.no24FindPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.no61Serialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
@@ -606,13 +690,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zzq.basic.algorithm.niuke" />
       <option name="MAIN_CLASS_NAME" value="com.zzq.basic.algorithm.niuke.TreeTest" />
-      <option name="METHOD_NAME" value="no24FindPath" />
+      <option name="METHOD_NAME" value="no61Serialize" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.no4ReConstructBinaryTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.no62KthNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
@@ -622,7 +706,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zzq.basic.algorithm.niuke" />
       <option name="MAIN_CLASS_NAME" value="com.zzq.basic.algorithm.niuke.TreeTest" />
-      <option name="METHOD_NAME" value="no4ReConstructBinaryTree" />
+      <option name="METHOD_NAME" value="no62KthNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -653,19 +737,19 @@
       <item itemvalue="Spring Boot.SpringbootApplication" />
       <item itemvalue="Spring Boot.JavaBaseApplication" />
       <item itemvalue="Spring Boot.CoreApplication" />
-      <item itemvalue="JUnit.TreeTest.no22PrintFromTopToBottom" />
-      <item itemvalue="JUnit.TreeTest.no18Mirror" />
-      <item itemvalue="JUnit.TreeTest.no4ReConstructBinaryTree" />
-      <item itemvalue="JUnit.TreeTest.no23VerifySequenceOfBST" />
-      <item itemvalue="JUnit.TreeTest.no24FindPath" />
+      <item itemvalue="JUnit.TreeTest.no60Print" />
+      <item itemvalue="JUnit.TreeTest.no61Serialize" />
+      <item itemvalue="JUnit.TreeTest.no62KthNode" />
+      <item itemvalue="JUnit.NumberTest.no63StreamMedian" />
+      <item itemvalue="JUnit.MatrixTest.no65HasPath" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeTest.no24FindPath" />
-        <item itemvalue="JUnit.TreeTest.no23VerifySequenceOfBST" />
-        <item itemvalue="JUnit.TreeTest.no4ReConstructBinaryTree" />
-        <item itemvalue="JUnit.TreeTest.no18Mirror" />
-        <item itemvalue="JUnit.TreeTest.no22PrintFromTopToBottom" />
+        <item itemvalue="JUnit.MatrixTest.no65HasPath" />
+        <item itemvalue="JUnit.NumberTest.no63StreamMedian" />
+        <item itemvalue="JUnit.TreeTest.no62KthNode" />
+        <item itemvalue="JUnit.TreeTest.no61Serialize" />
+        <item itemvalue="JUnit.TreeTest.no60Print" />
       </list>
     </recent_temporary>
   </component>
@@ -714,44 +798,48 @@
       <workItem from="1558947652915" duration="68230000" />
       <workItem from="1559524603217" duration="102441000" />
       <workItem from="1560133269625" duration="98000" />
-      <workItem from="1560134651490" duration="792000" />
+      <workItem from="1560134651490" duration="67838000" />
+      <workItem from="1560392626698" duration="38331000" />
+      <workItem from="1560735768322" duration="17929000" />
+      <workItem from="1560757186514" duration="288000" />
+      <workItem from="1560757567328" duration="6531000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest - 2019.06.06 at 13h 47m 39s.xml">
-      <configuration name="TreeTest" configurationId="JUnit" />
+    <history-entry file="TreeTest_no62KthNode - 2019.06.17 at 14h 57m 52s.xml">
+      <configuration name="TreeTest.no62KthNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_no22PrintFromTopToBottom - 2019.06.06 at 13h 48m 33s.xml">
-      <configuration name="TreeTest.no22PrintFromTopToBottom" configurationId="JUnit" />
+    <history-entry file="NumberTest_no63StreamMedian - 2019.06.17 at 15h 41m 27s.xml">
+      <configuration name="NumberTest.no63StreamMedian" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest - 2019.06.06 at 13h 49m 00s.xml">
-      <configuration name="TreeTest" configurationId="JUnit" />
+    <history-entry file="NumberTest_no63StreamMedian - 2019.06.17 at 15h 41m 57s.xml">
+      <configuration name="NumberTest.no63StreamMedian" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_no22PrintFromTopToBottom - 2019.06.06 at 13h 51m 24s.xml">
-      <configuration name="TreeTest.no22PrintFromTopToBottom" configurationId="JUnit" />
+    <history-entry file="NumberTest_no63StreamMedian - 2019.06.17 at 15h 47m 43s.xml">
+      <configuration name="NumberTest.no63StreamMedian" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_no22PrintFromTopToBottom - 2019.06.06 at 13h 51m 45s.xml">
-      <configuration name="TreeTest.no22PrintFromTopToBottom" configurationId="JUnit" />
+    <history-entry file="MatrixTest_no65HasPath - 2019.06.18 at 11h 13m 30s.xml">
+      <configuration name="MatrixTest.no65HasPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_no4ReConstructBinaryTree - 2019.06.06 at 14h 18m 30s.xml">
-      <configuration name="TreeTest.no4ReConstructBinaryTree" configurationId="JUnit" />
+    <history-entry file="MatrixTest_no65HasPath - 2019.06.18 at 11h 14m 12s.xml">
+      <configuration name="MatrixTest.no65HasPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_no4ReConstructBinaryTree - 2019.06.06 at 14h 24m 27s.xml">
-      <configuration name="TreeTest.no4ReConstructBinaryTree" configurationId="JUnit" />
+    <history-entry file="MatrixTest_no65HasPath - 2019.06.18 at 11h 21m 15s.xml">
+      <configuration name="MatrixTest.no65HasPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_no23VerifySequenceOfBST - 2019.06.06 at 15h 37m 07s.xml">
-      <configuration name="TreeTest.no23VerifySequenceOfBST" configurationId="JUnit" />
+    <history-entry file="MatrixTest_no65HasPath - 2019.06.18 at 11h 21m 52s.xml">
+      <configuration name="MatrixTest.no65HasPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_no24FindPath - 2019.06.06 at 18h 00m 46s.xml">
-      <configuration name="TreeTest.no24FindPath" configurationId="JUnit" />
+    <history-entry file="MatrixTest_no65HasPath - 2019.06.18 at 11h 22m 03s.xml">
+      <configuration name="MatrixTest.no65HasPath" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_no24FindPath - 2019.06.06 at 18h 01m 29s.xml">
-      <configuration name="TreeTest.no24FindPath" configurationId="JUnit" />
+    <history-entry file="MatrixTest_no65HasPath - 2019.06.18 at 11h 22m 17s.xml">
+      <configuration name="MatrixTest.no65HasPath" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="630717000" />
+    <option name="totallyTimeSpent" value="760842000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -766,7 +854,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49694502" visible="true" weight="0.34493193" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49694502" visible="true" weight="0.36611196" />
       <window_info id="Structure" order="1" sideWeight="0.503055" side_tool="true" weight="0.3343419" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -776,18 +864,18 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2532258" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.46612903" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.5177419" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49546143" visible="true" weight="0.18870968" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.4967742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.4483871" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5030257" side_tool="true" weight="0.3532258" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045386" side_tool="true" weight="0.1967742" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.18548387" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.12419355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -933,6 +1021,18 @@
           <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No27Permutation.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No36FindFirstCommonNode.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/staticfield/StaticField1.java</url>
           <line>11</line>
@@ -985,351 +1085,374 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/ListUtil.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No41FindContinuousSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No42FindNumbersWithSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="7" selection-start-line="7" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/LinkedListReversion.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No43LeftRotateString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="5" selection-start-line="5" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/LongestCommonSubSequence.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/ArrayUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="326">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/MaxContinuousSubSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/OddEvenAlternate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/LogUtil.java" />
-    <entry file="jar://D:/devbin/jdk8/javafx-src.zip!/com/sun/javafx/scene/paint/GradientUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="76" column="54" lean-forward="true" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="192" column="37" selection-start-line="192" selection-start-column="37" selection-end-line="192" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="84" column="26" lean-forward="true" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="87" column="20" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeTest.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No4ReConstructBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-959">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No17HasSubtree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No18Mirror.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No22PrintFromTopToBottom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No21IsPopOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No20StackWithMin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No5StackWithTwoQueues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/queuestack/No5QueueWithTwoStacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/MatrixUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No19PrintMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No1Find.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No3PrintListFromTailToHead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No14FindKthToTail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No15ReverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No16Merge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No13ReOrderArray.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No44ReverseSentence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No6MinNumberInRotateArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No7Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No8JumpFloor.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No45IsContinuous.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No9JumpFloorII.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No47Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="175">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/fibonacci/No10RectCover.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No48Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No46LastRemaining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No49StrToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No50Duplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No51Multiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" selection-start-line="5" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No53IsNumeric.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No11NumberOf1.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No52Match.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No12Power.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No54FirstCharacterInStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/FibonacciTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/MatrixTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/NumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/QueueStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="59" column="36" lean-forward="true" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/string/No2ReplaceSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="300">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="200">
+          <caret line="74" column="43" lean-forward="true" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/TreeTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        <state relative-caret-position="100">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/ListUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325">
+          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No55EntryNodeOfLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No56DeleteDuplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeLinkNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No57GetNext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No58IsSymmetrical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No22PrintFromTopToBottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="292" column="48" lean-forward="true" selection-start-line="292" selection-start-column="48" selection-end-line="292" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/threadpool/FixedThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="667" column="50" selection-start-line="667" selection-start-column="50" selection-end-line="667" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7545">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="139" column="12" lean-forward="true" selection-start-line="139" selection-start-column="12" selection-end-line="139" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="1008" column="27" lean-forward="true" selection-start-line="1008" selection-start-column="27" selection-end-line="1008" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No59Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" selection-start-line="8" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No60Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No61Serialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/m2_repo_common/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="126" column="37" lean-forward="true" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="205" column="1" lean-forward="true" selection-start-line="205" selection-start-column="1" selection-end-line="205" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No62KthNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="162" column="38" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
+          <folding>
+            <element signature="e#4308#4309#0" expanded="true" />
+            <element signature="e#4360#4361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/number/No63StreamMedian.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No23VerifySequenceOfBST.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/NumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="125">
+          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/No24FindPath.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/ArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="255">
+          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No64MaxInWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No1Find.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/MatrixUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/MatrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding>
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No65HasPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No66MovingCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="24" selection-start-line="24" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>

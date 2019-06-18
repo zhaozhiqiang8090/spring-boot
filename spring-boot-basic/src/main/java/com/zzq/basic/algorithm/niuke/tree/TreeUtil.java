@@ -69,11 +69,41 @@ public class TreeUtil {
         }
     }
 
-    public static void printTree(TreeNode root) {
+//    public static void printTree(TreeNode root) {
+//        if (root != null) {
+//            LinkedList<TreeNode> queue = new LinkedList<>();
+//            queue.offer(root);
+//            TreeNode node;
+//            int pCount;      //当前层结点数目
+//            int nextCount = 1;   //下一层结点数目
+//            while (!queue.isEmpty()) {
+//                pCount = nextCount;
+//                nextCount = 0;
+//                //打印当前层数字，并计算下一层结点数目
+//                for (int i = 1; i <= pCount; i++) {
+//                    node = queue.poll();
+//                    if (node != null) {
+//                        System.out.print(node.val + "\t");
+//                        if (node.left != null) {
+//                            queue.offer(node.left);
+//                            nextCount++;
+//                        }
+//                        if (node.right != null) {
+//                            queue.offer(node.right);
+//                            nextCount++;
+//                        }
+//                    }
+//                }
+//                System.out.println();
+//            }
+//        }
+//    }
+
+    public static <T extends TreeNode> void printTree(T root) {
         if (root != null) {
-            LinkedList<TreeNode> queue = new LinkedList<>();
+            LinkedList<T> queue = new LinkedList<>();
             queue.offer(root);
-            TreeNode node;
+            T node;
             int pCount;      //当前层结点数目
             int nextCount = 1;   //下一层结点数目
             while (!queue.isEmpty()) {
@@ -85,17 +115,25 @@ public class TreeUtil {
                     if (node != null) {
                         System.out.print(node.val + "\t");
                         if (node.left != null) {
-                            queue.offer(node.left);
+                            queue.offer((T) node.left);
                             nextCount++;
                         }
                         if (node.right != null) {
-                            queue.offer(node.right);
+                            queue.offer((T) node.right);
                             nextCount++;
                         }
                     }
                 }
                 System.out.println();
             }
+        }
+    }
+
+    public static void printTreeNode(TreeNode node) {
+        if (node != null) {
+            System.out.println(node.val);
+        } else {
+            System.out.println("null");
         }
     }
 

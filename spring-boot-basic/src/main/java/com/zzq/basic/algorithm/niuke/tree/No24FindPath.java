@@ -18,7 +18,7 @@ public class No24FindPath {
             int i = 0;
             while (i < pathList.size() && nodeList.size() < pathList.get(i).size()) //记得防止越界{
                 i++;
-            pathList.add(i, new ArrayList<Integer>(nodeList));  //nodeList会随方法变化，必须新建一个list存入pathList中！
+            pathList.add(i, new ArrayList<>(nodeList));  //nodeList会随方法变化，必须新建一个list存入pathList中！
         } else {  //不是叶子结点
             pathList = findPath(node.left, target);
             pathList = findPath(node.right, target);
