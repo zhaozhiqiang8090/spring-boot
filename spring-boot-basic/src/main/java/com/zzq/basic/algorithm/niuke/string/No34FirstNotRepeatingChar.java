@@ -32,4 +32,22 @@ public class No34FirstNotRepeatingChar {
         return -1;
     }
 
+    public static int firstNotRepeatingChar2(String str) {
+        if (str == null)
+            return '\0';
+        int[] repetitions = new int[256];
+        for (int i = 0; i < 256; i++)
+            repetitions[i] = 0;
+        for (int i = 0; i < str.length(); i++) {
+            int loc = (int) str.charAt(i);
+            repetitions[loc] += 1;
+        }
+        for (int i = 0; i < str.length(); i++) {
+            int loc = (int) str.charAt(i);
+            if (repetitions[loc] == 1)
+                return (char) loc;
+        }
+        return '\0';
+    }
+
 }

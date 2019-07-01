@@ -63,4 +63,21 @@ public class ListUtil {
         }
     }
 
+    /**
+     * 打印链表
+     *
+     * @param node
+     */
+    public static void printListNode(RandomListNode node) {
+        printListNodeDetail(node);
+        System.out.println();
+    }
+
+    private static void printListNodeDetail(RandomListNode node) {
+        if (node != null) {
+            System.out.print(node.label + "\t");
+            printListNodeDetail(node.next);
+        }
+    }
+
 }

@@ -1,7 +1,7 @@
 package com.zzq.basic.algorithm.niuke.tree;
 
-import java.util.LinkedList;
-import java.util.Stack;
+import java.util.Queue;
+import java.util.concurrent.LinkedBlockingQueue;
 
 public class TreeUtil {
 
@@ -101,32 +101,28 @@ public class TreeUtil {
 
     public static <T extends TreeNode> void printTree(T root) {
         if (root != null) {
-            LinkedList<T> queue = new LinkedList<>();
-            queue.offer(root);
-            T node;
-            int pCount;      //当前层结点数目
-            int nextCount = 1;   //下一层结点数目
-            while (!queue.isEmpty()) {
-                pCount = nextCount;
-                nextCount = 0;
-                //打印当前层数字，并计算下一层结点数目
-                for (int i = 1; i <= pCount; i++) {
-                    node = queue.poll();
-                    if (node != null) {
-                        System.out.print(node.val + "\t");
-                        if (node.left != null) {
-                            queue.offer((T) node.left);
-                            nextCount++;
-                        }
-                        if (node.right != null) {
-                            queue.offer((T) node.right);
-                            nextCount++;
-                        }
-                    }
-                }
-                System.out.println();
+            LinkedBlockingQueue<T> queue1 = new LinkedBlockingQueue<>();
+            LinkedBlockingQueue<T> queue2 = new LinkedBlockingQueue<>();
+            queue1.offer(root);
+            while (!queue1.isEmpty() || !queue2.isEmpty()) {
+                printTreeInQueue(queue1, queue2);
+                printTreeInQueue(queue2, queue1);
             }
         }
+    }
+
+    private static <T extends TreeNode> void printTreeInQueue(Queue<T> source, Queue<T> target) {
+        while (!source.isEmpty()) {
+            T node = source.poll();
+            System.out.print(node.val + "\t");
+            if (node.left != null) {
+                target.offer((T) node.left);
+            }
+            if (node.right != null) {
+                target.offer((T) node.right);
+            }
+        }
+        System.out.println();
     }
 
     public static void printTreeNode(TreeNode node) {
@@ -135,6 +131,14 @@ public class TreeUtil {
         } else {
             System.out.println("null");
         }
+    }
+
+    public static void printTreeNodeAsList(TreeNode node) {
+        while (node != null) {
+            System.out.print(node.val + "\t");
+            node = node.right;
+        }
+        System.out.println();
     }
 
 }

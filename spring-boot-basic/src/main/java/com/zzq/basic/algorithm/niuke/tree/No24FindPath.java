@@ -8,7 +8,7 @@ public class No24FindPath {
     private static ArrayList<ArrayList<Integer>> pathList = new ArrayList<>();
 
     public static ArrayList<ArrayList<Integer>> findPath(TreeNode node, int target) {
-        if (node == null) {
+        if (node == null || target < 0) {
             return pathList;
         }
         nodeList.add(node.val);

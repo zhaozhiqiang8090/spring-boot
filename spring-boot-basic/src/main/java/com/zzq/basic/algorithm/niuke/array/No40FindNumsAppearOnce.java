@@ -10,8 +10,8 @@ public class No40FindNumsAppearOnce {
             resultExclusiveOR ^= array[i];
 
         int indexOf1 = 0;
-        while (((resultExclusiveOR & 1) == 0) && (indexOf1 <= 4 * 8)) {
-            resultExclusiveOR = resultExclusiveOR >> 1;  //只有n>>1不完整，要n=n>>1
+        while (((resultExclusiveOR & 1) == 0) && (indexOf1 < 4 * 8)) {
+            resultExclusiveOR >>= 1;  //只有n>>1不完整，要n=n>>1
             indexOf1++;
         }
 

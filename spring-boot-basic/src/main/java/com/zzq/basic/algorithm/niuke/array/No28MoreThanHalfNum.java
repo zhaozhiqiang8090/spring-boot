@@ -19,4 +19,23 @@ public class No28MoreThanHalfNum {
         }
         return 0;
     }
+
+    public static int moreThanHalfNum2(int[] array) {
+        if (array == null || array.length == 0)
+            return 0;
+        int num = array[0];
+        int count = 1;
+        for (int i = 1; i < array.length; i++) {
+            if (count == 0) {
+                num = array[i];
+                count++;
+            } else if (array[i] == num) {
+                count++;
+            } else {
+                count--;
+            }
+        }
+        return num;
+    }
+
 }

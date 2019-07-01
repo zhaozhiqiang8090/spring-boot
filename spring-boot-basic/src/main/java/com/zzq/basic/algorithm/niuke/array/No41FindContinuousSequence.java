@@ -21,12 +21,10 @@ public class No41FindContinuousSequence {
                 arrayLists.add(sequence);
                 curSum -= small;
                 small++; //这两行位置先后要注意
-            }
-            if (curSum < sum) {
+            } else if (curSum < sum) {
                 big++;
                 curSum += big;
-            }
-            if (curSum > sum) {
+            } else {
                 curSum -= small;
                 small++;
             }

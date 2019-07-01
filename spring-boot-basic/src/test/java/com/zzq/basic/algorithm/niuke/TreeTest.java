@@ -14,6 +14,7 @@ import static com.zzq.basic.algorithm.niuke.tree.No18Mirror.mirror;
 import static com.zzq.basic.algorithm.niuke.tree.No22PrintFromTopToBottom.printFromTopToBottom;
 import static com.zzq.basic.algorithm.niuke.tree.No23VerifySequenceOfBST.verifySequenceOfBST;
 import static com.zzq.basic.algorithm.niuke.tree.No24FindPath.findPath;
+import static com.zzq.basic.algorithm.niuke.tree.No26Convert.convert;
 import static com.zzq.basic.algorithm.niuke.tree.No38TreeDepth.treeDepth;
 import static com.zzq.basic.algorithm.niuke.tree.No39IsBalanced.isBalanced;
 import static com.zzq.basic.algorithm.niuke.tree.No4ReConstructBinaryTree.reConstructBinaryTree;
@@ -82,6 +83,23 @@ public class TreeTest {
 
     @Test
     public void no26Convert() {
+        TreeNode node5 = new TreeNode(5);
+        TreeNode node3 = new TreeNode(3);
+        TreeNode node7 = new TreeNode(7);
+        TreeNode node2 = new TreeNode(2);
+        TreeNode node4 = new TreeNode(4);
+        TreeNode node6 = new TreeNode(6);
+        TreeNode node8 = new TreeNode(8);
+        node5.left = node3;
+        node5.right = node7;
+        node3.left = node2;
+        node3.right = node4;
+        node7.left = node6;
+        node7.right = node8;
+        TreeUtil.printTree(node5);
+
+        TreeNode node = convert(node5);
+        TreeUtil.printTreeNodeAsList(node);
     }
 
     @Test
@@ -199,7 +217,7 @@ public class TreeTest {
         node10.right = node11;
 
         TreeUtil.printTree(node8);
-        TreeNode node = kthNode(node8, 1);
+        TreeNode node = kthNode(node8, 5);
         TreeUtil.printTreeNode(node);
     }
 

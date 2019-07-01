@@ -2,6 +2,8 @@ package com.zzq.basic.algorithm.niuke;
 
 import com.zzq.basic.algorithm.niuke.linkedlist.ListNode;
 import com.zzq.basic.algorithm.niuke.linkedlist.ListUtil;
+import com.zzq.basic.algorithm.niuke.linkedlist.No25Clone;
+import com.zzq.basic.algorithm.niuke.linkedlist.RandomListNode;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -48,6 +50,24 @@ public class ListTest {
         ListUtil.printListNode(listNode2);
         ListNode head = merge2(listNode, listNode2);
         ListUtil.printListNode(head);
+    }
+
+    @Test
+    public void no25Clone() {
+        RandomListNode node1 = new RandomListNode(1);
+        RandomListNode node2 = new RandomListNode(2);
+        RandomListNode node3 = new RandomListNode(3);
+        node1.next = node2;
+        node1.random = node3;
+        node2.next = node3;
+        node2.random = null;
+        node3.random = node2;
+        ListUtil.printListNode(node1);
+
+        RandomListNode node = No25Clone.clone(node1);
+        if (node != node1) {
+            ListUtil.printListNode(node);
+        }
     }
 
     @Test

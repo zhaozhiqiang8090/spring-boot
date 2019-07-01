@@ -18,28 +18,29 @@ import static com.zzq.basic.algorithm.niuke.array.No41FindContinuousSequence.fin
 import static com.zzq.basic.algorithm.niuke.array.No42FindNumbersWithSum.findNumbersWithSum;
 import static com.zzq.basic.algorithm.niuke.array.No45IsContinuous.isContinuous;
 import static com.zzq.basic.algorithm.niuke.array.No50Duplicate.duplicate;
+import static com.zzq.basic.algorithm.niuke.array.No50Duplicate.duplicate2;
 import static com.zzq.basic.algorithm.niuke.array.No51Multiply.multiply;
-import static com.zzq.basic.algorithm.niuke.array.No6MinNumberInRotateArray.findMin;
+import static com.zzq.basic.algorithm.niuke.array.No6MinNumberInRotateArray.minNumberInRotateArray;
 
 public class ArrayTest {
 
     @Test
     public void no6MinNumberInRotateArray() {
         int[] array1 = {3, 4, 5, 1, 2};
-        System.out.println("升序排序数组的一个旋转数组，无重复数字：" + findMin(array1));
+        System.out.println("升序排序数组的一个旋转数组，无重复数字：" + minNumberInRotateArray(array1));
         int[] array2 = {1, 2, 3, 4, 5};
-        System.out.println("升序排序数组：" + findMin(array2));
+        System.out.println("升序排序数组：" + minNumberInRotateArray(array2));
         int[] array3 = {1};
-        System.out.println("只包含一个数字的数组：" + findMin(array3));
+        System.out.println("只包含一个数字的数组：" + minNumberInRotateArray(array3));
         int[] array4 = {2, 4, 2, 2, 2, 2, 2};
-        System.out.println("包含重复元素的数组：" + findMin(array4));
+        System.out.println("包含重复元素的数组：" + minNumberInRotateArray(array4));
         int[] array41 = {2, 2, 2, 2, 1, 1, 1};
-        System.out.println("包含重复元素的数组：" + findMin(array41));
+        System.out.println("包含重复元素的数组：" + minNumberInRotateArray(array41));
         int[] array42 = {2, 2, 2, 4, 2, 2, 2};
-        System.out.println("包含重复元素的数组：" + findMin(array42));
+        System.out.println("包含重复元素的数组：" + minNumberInRotateArray(array42));
         int[] array43 = {2, 2, 4, 1, 2, 2, 2};
-        System.out.println("包含重复元素的数组：" + findMin(array43));
-        System.out.println("null数组：" + findMin(null));
+        System.out.println("包含重复元素的数组：" + minNumberInRotateArray(array43));
+        System.out.println("null数组：" + minNumberInRotateArray(null));
     }
 
     @Test
@@ -128,7 +129,7 @@ public class ArrayTest {
     public void no50Duplicate() {
         int[] a = {2, 3, 1, 0, 2, 5, 3};
         int[] b = new int[1];
-        boolean flag = duplicate(a, b);
+        boolean flag = duplicate2(a, b);
         System.out.println(flag);
         ArrayUtil.printArray(b);
     }

@@ -12,9 +12,8 @@ public class No22PrintFromTopToBottom {
         ArrayList<Integer> list = new ArrayList<>();
         LinkedList<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
-        TreeNode node;
         while (queue.size() != 0) {
-            node = queue.poll();
+            TreeNode node = queue.poll();
             list.add(node.val);
             if (node.left != null) {
                 queue.offer(node.left);
