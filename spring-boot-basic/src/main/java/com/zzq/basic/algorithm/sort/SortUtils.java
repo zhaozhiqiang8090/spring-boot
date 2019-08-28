@@ -57,6 +57,33 @@ public class SortUtils {
     }
 
     /**
+     * 获取数组某一位上的最值
+     *
+     * @param a
+     * @param type
+     * @return
+     */
+    public static int getMostValueAtExp(int[] a, int type, int exp) {
+        int minValue = a[0] / exp % 10;
+        int maxValue = a[0] / exp % 10;
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] / exp % 10 < minValue) {
+                minValue = a[i] / exp % 10;// 输入数据的最小值
+            } else if (a[i] / exp % 10 > maxValue) {
+                maxValue = a[i] / exp % 10;// 输入数据的最大值
+            }
+        }
+
+        if (type == SortConstant.MAX_VALUE) {
+            return maxValue;
+        } else if (type == SortConstant.MIN_VALUE) {
+            return minValue;
+        }
+
+        return -1;
+    }
+
+    /**
      * list转数组
      *
      * @param l

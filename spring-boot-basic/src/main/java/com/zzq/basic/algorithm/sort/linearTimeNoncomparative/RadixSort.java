@@ -22,11 +22,14 @@ public class RadixSort {
      */
     private static void countSort(int[] a, int exp) {
 
-        int minValue = SortUtils.getMostValue(a, SortConstant.MIN_VALUE);
-        int maxValue = SortUtils.getMostValue(a, SortConstant.MAX_VALUE);
+        int minValue = SortUtils.getMostValueAtExp(a, SortConstant.MIN_VALUE, exp);
+        int maxValue = SortUtils.getMostValueAtExp(a, SortConstant.MAX_VALUE, exp);
 
         // 桶的初始化
-        int bucketCount = (maxValue - minValue) / exp + 1;
+        int bucketCount = maxValue - minValue + 1;
+        if (bucketCount <= 1) {
+            return;
+        }
         LinkedList<Integer>[] buckets = new LinkedList[bucketCount];
         for (int i = 0; i < buckets.length; i++) {
             buckets[i] = new LinkedList();
@@ -34,7 +37,7 @@ public class RadixSort {
 
         // 数据入桶
         for (int i = 0; i < a.length; i++) {
-            buckets[(a[i] - minValue) / exp % 10].add(a[i]);
+            buckets[a[i] / exp % 10 - minValue].add(a[i]);
         }
 
         // 数据归位
@@ -53,12 +56,20 @@ public class RadixSort {
      *     a -- 数组
      */
     public static void radixSort(int[] a) {
-        int exp;    // 指数。当对数组按个位进行排序时，exp=1；按十位进行排序时，exp=10；...
         int min = SortUtils.getMostValue(a, SortConstant.MIN_VALUE);
         int max = SortUtils.getMostValue(a, SortConstant.MAX_VALUE);    // 数组a中的最大值
 
+        int abs;
+        if (min >= 0) {
+            abs = max;
+        } else if (max <= 0){
+            abs = -min;
+        } else {
+            abs = max > -min ? max : -min;
+        }
+
         // 从个位开始，对数组a按"指数"进行排序
-        for (exp = 1; (max - min) / exp > 0; exp *= 10) {
+        for (int exp = 1; abs / exp > 0; exp *= 10) {
             countSort(a, exp);
         }
     }

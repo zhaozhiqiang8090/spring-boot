@@ -13,8 +13,8 @@ public class OddEvenAlternate {
     private static Condition oddCondition = reentrantLock.newCondition();
     private static Condition evenCondition = reentrantLock.newCondition();
     private static volatile int i = 1;
-    private static boolean oddStop = false;
-    private static boolean evenStop = false;
+    private static volatile boolean oddStop = false;
+    private static volatile boolean evenStop = false;
 
     public static class Odd implements Callable<Integer> {
 

@@ -47,6 +47,7 @@ public class MyClassLoader extends ClassLoader {
 
         while (true) {
             int i = fc.read(by);
+            fc.write(by);
             if (i == 0 || i == -1)
                 break;
             by.flip();

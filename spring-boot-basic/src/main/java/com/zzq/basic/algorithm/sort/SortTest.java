@@ -9,10 +9,11 @@ import com.zzq.basic.algorithm.sort.nonlinearTimeComparative.SelectionSort;
 public class SortTest {
 
     public static void main(String[] args) {
-        int[] array = {1, 3, 4, 5, 2, 6, 9, 7, 8, 0, -1, -10, 20, 300};
+//        int[] array = {1, 3, 4, 5, 2, 6, 9, 7, 8, 0, -1, -10, 20, 300};
+        int[] array = {-101,};
         SortUtils.printPart(array);
 
-        BubbleSort.bubbleSort(array);
+//        BubbleSort.bubbleSort(array);
 //        SelectionSort.selectionSort(array);
 //        InsertionSort.insertionSort(array);
 
@@ -22,7 +23,7 @@ public class SortTest {
 
 //        CountingSort.countingSort(array);
 //        BucketSort.bucketSort(array, 10);
-//        RadixSort.radixSort(array);
+        RadixSort.radixSort(array);
 
         SortUtils.printPart(array);
     }

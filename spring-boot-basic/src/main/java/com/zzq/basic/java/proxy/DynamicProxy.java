@@ -34,6 +34,8 @@ public class DynamicProxy implements InvocationHandler {
     }
 
     public static void main(String[] args) {
+        // 保存生成的代理类的字节码文件
+        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
         Hello hello = new HelloImpl();
         DynamicProxy dynamicProxy = new DynamicProxy(hello);
         Hello helloProxy = dynamicProxy.getProxy();

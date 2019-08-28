@@ -14,10 +14,8 @@ public class HeapSort {
     public static void heapAdjustByRecursion(int[] array, int parent, int length) {
         int left = parent * 2 + 1;
         int right = parent * 2 + 2;
-        int large;
-
         if (left < length) {
-            large = left;
+            int large = left;
             if (right < length && array[left] < array[right]) {
                 large = right;
             }

@@ -79,9 +79,8 @@ public class LinkedListReversion {
     private static Node reverseLinkedListByTraversion(Node node) {
         Node previousNode = null;
         Node currentNode = node;
-        Node nextNode;
         while (currentNode != null) {
-            nextNode = currentNode.getNext();
+            Node nextNode = currentNode.getNext();
 
             currentNode.setNext(previousNode);
             previousNode = currentNode;

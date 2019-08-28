@@ -10,6 +10,7 @@
         <module name="spring-boot-common" />
         <module name="spring-boot-core" />
         <module name="spring-boot-mq" />
+        <module name="spring-boot-netty" />
       </profile>
     </annotationProcessing>
   </component>
