@@ -3,10 +3,13 @@
  */
 package com.zzq.basic.java.test;
 
-import java.util.*;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.LinkedBlockingQueue;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * 类的详细说明
@@ -21,6 +24,10 @@ public class BasicTest {
 
         private String name;
 
+        public User(String name) {
+            this.name = name;
+        }
+
         public String getName() {
             return name;
         }
@@ -32,12 +39,8 @@ public class BasicTest {
     }
 
     public static void main(String[] args) {
-        int[] data = {1, 2, 3, 4, 5, 6};
-//        subPage(6, data, 1, 7);
-        Map map = new ConcurrentHashMap();
-        new LinkedBlockingQueue<>();
-        new ArrayBlockingQueue<>(16);
-
+        List<String> list = new ArrayList<>();
+        ThreadLocalRandom random = ThreadLocalRandom.current();
     }
 
     public static void subPage(int count, int[] data, int pageNo, int pageSize) {

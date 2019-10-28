@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df81ff0-b954-4d6a-a569-93eed292298f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-netty/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-netty/spring-boot-netty.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-netty/src/main/java/com/zzq/netty/echo/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-netty/src/main/java/com/zzq/netty/echo/EchoClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-netty/src/main/java/com/zzq/netty/echo/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-netty/src/main/java/com/zzq/netty/echo/EchoServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/SumPerFloorOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/LinkedListReversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/LinkedListReversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/OddEvenAlternate.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/OddEvenAlternate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/SortUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/SortUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/linearTimeNoncomparative/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/linearTimeNoncomparative/RadixSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/classloader/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/classloader/MyClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/CGLibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/CGLibProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/DynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/DynamicProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/test/BasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/test/BasicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/common/LinkedListReversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/common/LinkedListReversion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/common/OddEvenAlternate.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/common/OddEvenAlternate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/sort/SortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/sort/SortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/sort/SortUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/sort/SortUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/sort/linearTimeNoncomparative/RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/algorithm/sort/linearTimeNoncomparative/RadixSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/classloader/MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/classloader/MyClassLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/proxy/CGLibProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/proxy/CGLibProxy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/test/BasicTest$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/test/BasicTest$User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/test/BasicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/test/BasicTest.class" afterDir="false" />
     </list>
@@ -53,16 +31,18 @@
     <session id="1648100749">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="41" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.102" value="1" />
           <entry key="project.open.time.103" value="2" />
+          <entry key="project.open.time.104" value="1" />
           <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.106" value="2" />
           <entry key="project.open.time.107" value="2" />
           <entry key="project.open.time.111" value="3" />
           <entry key="project.open.time.122" value="1" />
           <entry key="project.open.time.123" value="1" />
+          <entry key="project.open.time.127" value="1" />
           <entry key="project.open.time.130" value="2" />
           <entry key="project.open.time.137" value="1" />
           <entry key="project.open.time.141" value="1" />
@@ -73,7 +53,9 @@
           <entry key="project.open.time.169" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.170" value="1" />
+          <entry key="project.open.time.179" value="1" />
           <entry key="project.open.time.180" value="1" />
+          <entry key="project.open.time.182" value="1" />
           <entry key="project.open.time.197" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.209" value="1" />
@@ -83,7 +65,7 @@
           <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.87" value="1" />
-          <entry key="project.open.time.88" value="2" />
+          <entry key="project.open.time.88" value="3" />
           <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.92" value="1" />
           <entry key="project.open.time.93" value="2" />
@@ -91,14 +73,14 @@
           <entry key="project.open.time.95" value="1" />
           <entry key="project.open.time.96" value="2" />
           <entry key="project.open.time.98" value="2" />
-          <entry key="project.opened" value="49" />
+          <entry key="project.opened" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="28" />
+          <entry key="class" value="38" />
           <entry key="html" value="1" />
-          <entry key="java" value="998" />
+          <entry key="java" value="1031" />
           <entry key="jsp" value="2" />
           <entry key="properties" value="17" />
           <entry key="xml" value="63" />
@@ -107,9 +89,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="28" />
+          <entry key="CLASS" value="38" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="998" />
+          <entry key="JAVA" value="1031" />
           <entry key="JSP" value="2" />
           <entry key="Properties" value="17" />
           <entry key="XML" value="63" />
@@ -120,7 +102,7 @@
         <counts>
           <entry key="dummy" value="566" />
           <entry key="html" value="11" />
-          <entry key="java" value="45235" />
+          <entry key="java" value="46286" />
           <entry key="properties" value="29" />
           <entry key="xml" value="131" />
           <entry key="yaml" value="34" />
@@ -129,7 +111,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="11" />
-          <entry key="JAVA" value="45235" />
+          <entry key="JAVA" value="46286" />
           <entry key="PLAIN_TEXT" value="566" />
           <entry key="Properties" value="29" />
           <entry key="XML" value="131" />
@@ -141,21 +123,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/proxy/CGLibProxy.class">
+        <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/SumPerFloorOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/proxy/DynamicProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+            <state relative-caret-position="145">
+              <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
               <folding>
-                <element signature="e#0#1274#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,8 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/array/No64MaxInWindow.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/MatrixUtil.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No66MovingCount.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/test/java/com/zzq/basic/algorithm/niuke/MatrixTest.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/matrix/No65HasPath.java" />
@@ -250,7 +223,6 @@
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/tree/TreeUtil.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/linearTimeNoncomparative/BucketSort.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/SortUtils.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/SortTest.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/linearTimeNoncomparative/RadixSort.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/classloader/MyClassLoader.java" />
         <option value="$PROJECT_DIR$/spring-boot-netty/src/main/java/com/zzq/netty/echo/EchoServerHandler.java" />
@@ -260,10 +232,13 @@
         <option value="$PROJECT_DIR$/spring-boot-netty/src/main/java/com/zzq/netty/echo/EchoClient.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/LinkedListReversion.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/OddEvenAlternate.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/HeapSort.java" />
-        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/test/BasicTest.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/DynamicProxy.java" />
         <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/CGLibProxy.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/SortTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/HeapSort.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No14FindKthToTail.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/test/BasicTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/SumPerFloorOfBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -350,192 +325,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zzq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zzq" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zzq" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zzq" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zzq" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zzq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zzq" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zzq" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zzq" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
@@ -632,6 +421,123 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zzq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zzq" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zzq" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zzq" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zzq" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zzq" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -641,7 +547,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566955528450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572226172969" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -680,7 +586,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CGLibProxy">
+  <component name="RunManager" selected="Application.SumPerFloorOfBinaryTree">
+    <configuration name="BasicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.java.test.BasicTest" />
+      <module name="spring-boot-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzq.basic.java.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CGLibProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzq.basic.java.proxy.CGLibProxy" />
       <module name="spring-boot-basic" />
@@ -707,12 +626,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzq.netty.echo.EchoClient" />
-      <module name="spring-boot-netty" />
+    <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.algorithm.sort.SortTest" />
+      <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzq.netty.echo.*" />
+          <option name="PATTERN" value="com.zzq.basic.algorithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -720,21 +639,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzq.netty.echo.EchoServer" />
-      <module name="spring-boot-netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzq.netty.echo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OddEvenAlternate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.algorithm.common.OddEvenAlternate" />
+    <configuration name="SumPerFloorOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzq.basic.algorithm.common.SumPerFloorOfBinaryTree" />
       <module name="spring-boot-basic" />
       <extension name="coverage">
         <pattern>
@@ -771,19 +677,19 @@
       <item itemvalue="Spring Boot.SpringbootApplication" />
       <item itemvalue="Spring Boot.JavaBaseApplication" />
       <item itemvalue="Spring Boot.CoreApplication" />
-      <item itemvalue="Application.EchoServer" />
-      <item itemvalue="Application.EchoClient" />
-      <item itemvalue="Application.OddEvenAlternate" />
       <item itemvalue="Application.DynamicProxy" />
       <item itemvalue="Application.CGLibProxy" />
+      <item itemvalue="Application.BasicTest" />
+      <item itemvalue="Application.SortTest" />
+      <item itemvalue="Application.SumPerFloorOfBinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumPerFloorOfBinaryTree" />
+        <item itemvalue="Application.BasicTest" />
+        <item itemvalue="Application.SortTest" />
         <item itemvalue="Application.CGLibProxy" />
         <item itemvalue="Application.DynamicProxy" />
-        <item itemvalue="Application.OddEvenAlternate" />
-        <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.EchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -844,7 +750,12 @@
       <workItem from="1563173134548" duration="18571000" />
       <workItem from="1563500157423" duration="20110000" />
       <workItem from="1565850821053" duration="2108000" />
-      <workItem from="1566790374005" duration="14596000" />
+      <workItem from="1566790374005" duration="54151000" />
+      <workItem from="1567992699171" duration="1184000" />
+      <workItem from="1568599016730" duration="4169000" />
+      <workItem from="1569217441165" duration="8563000" />
+      <workItem from="1571048048009" duration="3640000" />
+      <workItem from="1571985580951" duration="6151000" />
     </task>
     <servers />
   </component>
@@ -881,7 +792,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1014613000" />
+    <option name="totallyTimeSpent" value="1077875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -896,7 +807,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49694502" visible="true" weight="0.2322239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49694502" visible="true" weight="0.39107412" />
       <window_info id="Structure" order="1" sideWeight="0.503055" side_tool="true" weight="0.3343419" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -906,14 +817,14 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2532258" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.494705" visible="true" weight="0.11612903" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.26935485" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.494705" visible="true" weight="0.28225806" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.2580645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.4483871" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.505295" side_tool="true" weight="0.46290323" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.505295" side_tool="true" weight="0.28824475" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
@@ -1115,167 +1026,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/concurrent/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/CyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="230" column="22" lean-forward="true" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1298" column="22" selection-start-line="1298" selection-start-column="22" selection-end-line="1298" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3070">
-          <caret line="291" column="5" lean-forward="true" selection-start-line="291" selection-start-column="5" selection-end-line="291" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/concurrent/SemaphoreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/Semaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1652">
-          <caret line="349" column="73" lean-forward="true" selection-start-line="349" selection-start-column="73" selection-end-line="349" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/concurrent/ReentrantLockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3427">
-          <caret line="137" column="60" lean-forward="true" selection-start-line="137" selection-start-column="60" selection-end-line="137" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/SafeSingletonByStaticInnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/SafeSingletonByDoubleCheckWithVolatile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/LongestCommonSubSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/MaxContinuousSubSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/OddEvenAlternate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/test/BasicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5150">
@@ -1304,13 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/LinkedListReversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/HelloProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1332,13 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/devbin/jdk8/jre/lib/rt.jar!/sun/reflect/LangReflectAccess.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1350,10 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="125" column="43" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="43" />
-          <folding>
-            <element signature="e#5265#5266#0" expanded="true" />
-            <element signature="e#5329#5330#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1389,20 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1750">
           <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#2486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/DynamicProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1420,59 +1138,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/CGLibProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="23" column="62" lean-forward="true" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/HelloImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/proxy/HelloImpl$$FastClassByCGLIB$$be689550.class">
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/io/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#3830#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="166">
+          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/devbin/m2_repo_common/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/cglib/reflect/FastClass.class">
+    <entry file="jar://D:/devbin/jdk8/jre/lib/rt.jar!/sun/nio/cs/StreamDecoder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="-100">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/devbin/m2_repo_common/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/io/InputStreamReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="121" column="44" lean-forward="true" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+        <state relative-caret-position="324">
+          <caret line="73" column="45" lean-forward="true" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/proxy/HelloImpl$$EnhancerByCGLIB$$b14a6743$$FastClassByCGLIB$$dac0bc72.class">
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/io/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="380" column="54" lean-forward="true" selection-start-line="380" selection-start-column="54" selection-end-line="380" selection-end-column="54" />
+        <state relative-caret-position="199">
+          <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/proxy/HelloImpl$$EnhancerByCGLIB$$b14a6743.class">
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="191">
+          <caret line="388" column="19" selection-start-line="388" selection-start-column="19" selection-end-line="388" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/LongestCommonSubSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="65" lean-forward="true" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/OddEvenAlternate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/DynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/proxy/CGLibProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1480,16 +1226,165 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#1274#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/proxy/CGLibProxy.class">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/m2_repo_common/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/cglib/reflect/FastClass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/m2_repo_common/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="119" column="35" lean-forward="true" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/proxy/HelloImpl$$EnhancerByCGLIB$$b14a6743.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/proxy/HelloImpl$$EnhancerByCGLIB$$b14a6743$$FastClassByCGLIB$$dac0bc72.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="380" column="54" lean-forward="true" selection-start-line="380" selection-start-column="54" selection-end-line="380" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/target/classes/com/zzq/basic/java/proxy/HelloImpl$$FastClassByCGLIB$$be689550.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="103" column="19" lean-forward="true" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/SortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/niuke/linkedlist/No14FindKthToTail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/SafeSingletonByDoubleCheckWithVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/concurrent/ThreadLocalRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3725">
+          <caret line="196" column="35" selection-start-line="196" selection-start-column="35" selection-end-line="196" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3475">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93300">
+          <caret line="3805" column="52" selection-start-line="3805" selection-start-column="52" selection-end-line="3805" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/devbin/jdk8/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4075">
+          <caret line="200" column="24" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/test/BasicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/MaxContinuousSubSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/LinkedListReversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/sort/nonlinearTimeComparative/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/java/singleton/SafeSingletonByStaticInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-basic/src/main/java/com/zzq/basic/algorithm/common/SumPerFloorOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
